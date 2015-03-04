@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="menu_popupwindow_height">72</integer>
+    <integer name="menu_popupwindow_tts_setting_height">216</integer>
+    <integer name="comment_userimgs_margin">10</integer>
+    <integer name="newsmain_push_anim_duration">400</integer>
+    <integer name="comment_report_dialog_width">410</integer>
+    <integer name="account_headimg_width_height">106</integer>
+    <integer name="account_headimg_bg_width">480</integer>
+    <integer name="account_headimg_bg_height">360</integer>
+    <integer name="account_headimg_bg_width_scale">4</integer>
+    <integer name="account_headimg_bg_height_sacle">3</integer>
+    
+     <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">180</integer>
+    <integer name="main_showword_top">155</integer>
+    <integer name="main_del_left">15</integer>
+    <integer name="main_del_right">30</integer>
+<!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">440</integer>
+    <integer name="waterfall_detail_content_space">12</integer>
+</resources>

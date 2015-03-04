@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="menu_popupwindow_height">81</integer>
+	<integer name="menu_popupwindow_tts_setting_height">243</integer>
+	<integer name="comment_report_dialog_width">427</integer>
+	<integer name="newsmain_push_anim_duration">400</integer>
+	
+	<!-- 主界面用到的 -->
+    <integer name="main_modular_width">125</integer>
+    <integer name="main_modular_distance">7</integer>
+    <integer name="main_modular_iconleft">45</integer>
+    
+     <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">205</integer>
+    <integer name="main_showword_top">180</integer>
+    <integer name="main_del_left">20</integer>
+    <integer name="main_del_right">30</integer>
+</resources>

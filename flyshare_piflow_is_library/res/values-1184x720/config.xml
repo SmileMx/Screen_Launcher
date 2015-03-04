@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="menu_popupwindow_height">108</integer>
+	<integer name="menu_popupwindow_tts_setting_height">324</integer>
+	<integer name="newsmain_push_anim_duration">500</integer>
+	
+	<!-- 主界面用到的 -->
+    <integer name="main_modular_width">167</integer>
+    <integer name="main_modular_distance">9</integer>
+    <integer name="main_modular_iconleft">61</integer>
+    
+    <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">275</integer>
+    <integer name="main_showword_top">245</integer>
+    <integer name="main_del_left">20</integer>
+    <integer name="main_del_right">40</integer>
+    
+    <integer name="waterfall_detail_imageview_width">660</integer>
+    <integer name="waterfall_detail_content_space">20</integer>
+</resources>

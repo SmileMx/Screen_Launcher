@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="menu_popupwindow_height">96</integer>
+	<integer name="comment_userimgs_margin">10</integer>
+	<integer name="newsmain_push_anim_duration">400</integer>
+	<integer name="comment_report_dialog_width">544</integer>
+	<integer name="comment_icon_size">56</integer>
+	<integer name="account_headimg_width_height">146</integer>
+		<integer name="account_headimg_bg_width">640</integer>
+	<integer name="account_headimg_bg_height">480</integer>
+	<integer name="account_headimg_bg_width_scale">4</integer>
+	<integer name="account_headimg_bg_height_sacle">3</integer>
+	
+	<!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">580</integer>
+    <integer name="waterfall_detail_content_space">16</integer>
+    
+    <integer name="waterfall_audio_title_height">70</integer>
+    <integer name="waterfall_audio_img_height">480</integer>
+    
+    <!-- 主界面用到的 -->
+    <integer name="main_modular_width">150</integer>
+    <integer name="main_modular_distance">8</integer>
+    <integer name="main_modular_iconleft">45</integer>
+    
+    <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">240</integer>
+    <integer name="main_showword_top">215</integer>
+    <integer name="main_del_left">20</integer>
+    <integer name="main_del_right">30</integer>
+</resources>

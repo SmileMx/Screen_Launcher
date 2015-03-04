@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="menu_popupwindow_height">72</integer>
+    <integer name="menu_popupwindow_tts_setting_height">216</integer>
+    <!-- 用户回复时，增加头像的margin -->
+    <integer name="comment_userimgs_margin">10</integer>
+    <!-- 举报对话框的宽 -->
+    <integer name="comment_report_dialog_width">410</integer>
+    <!-- 评论、分享、收藏小图标大小 -->
+    <integer name="comment_icon_size">30</integer>
+    <integer name="newsmain_push_anim_duration">400</integer>
+    <integer name="account_headimg_width_height">106</integer>
+    <integer name="account_headimg_bg_width">480</integer>
+    <integer name="account_headimg_bg_height">360</integer>
+    <integer name="account_headimg_bg_width_scale">4</integer>
+    <integer name="account_headimg_bg_height_sacle">3</integer>
+
+    <!-- 主界面用到的 -->
+    <integer name="main_modular_width">108</integer>
+    <integer name="main_modular_distance">4</integer>
+    <integer name="main_modular_iconleft">40</integer>
+    <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">180</integer>
+    <integer name="main_showword_top">155</integer>
+    <integer name="main_del_left">15</integer>
+    <integer name="main_del_right">30</integer>
+    <integer name="main_scale_distance">24</integer>
+
+    <!-- 新手机加油站 -->
+    <integer name="appmain_scrollx">161</integer>
+    <!-- 分类页面导航title每个字块宽  与字大小一样 -->
+    <integer name="app_category_title_textsize">62</integer>
+    <!-- 厂商活动gallery 高度 -->
+    <integer name="factory_function_gallery_height">203</integer>
+    <integer name="factory_function_gallery_item_margin">40</integer>
+    <integer name="factory_function_gallery_item_width">166</integer>
+    <integer name="factory_function_gallery_item_height">172</integer>
+
+    <!-- 瀑布流 -->
+    <integer name="waterwall_first_text_size">48</integer>
+    <integer name="waterwall_text_item_01_height">205</integer>
+    <integer name="waterwall_text_item_02_height">331</integer>
+    <integer name="waterwall_text_item_03_height">318</integer>
+    <integer name="waterwall_img_item_extra_gap">96</integer>
+    <integer name="waterwall_item_width">218</integer>
+    <integer name="waterwall_banner_width">458</integer>
+    <integer name="waterwall_gap">18</integer>
+    <!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">440</integer>
+    <integer name="waterfall_detail_content_space">12</integer>
+
+    <integer name="waterfall_audio_title_height">52</integer>
+    <integer name="waterfall_audio_img_height">360</integer>
+
+</resources>

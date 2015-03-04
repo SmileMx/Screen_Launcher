@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_three_has_text_layout_02"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/waterwall_three_has_text_02_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        layout="@layout/wpg_waterwall_the_img_item" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.678"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/waterwall_three_has_text_02_horizontal_img"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            layout="@layout/wpg_waterwall_the_img_item" />
+
+        <include
+            android:id="@+id/waterwall_three_has_text_02_horizontal_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            layout="@layout/wpg_waterwall_the_text_item" />
+    </LinearLayout>
+
+</LinearLayout>

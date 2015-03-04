@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_the_text_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#252525"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#50ffffff" />
+
+    <TextView
+        android:id="@+id/waterwall_the_img_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/waterwall_text_item01_tv_lineSpacingExtra"
+        android:maxLines="3"
+        android:paddingLeft="@dimen/waterwall_text_item_tv_marginleft_right"
+        android:paddingRight="@dimen/waterwall_text_item_tv_marginleft_right"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/waterwall_text_item01_tv_size" />
+
+    <TextView
+        android:id="@+id/waterwall_the_img_item_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/waterwall_time_and_source_text_linespacingextra"
+        android:textColor="#a3FFFFFF"
+        android:textSize="@dimen/waterwall_time_and_source_textsize"
+        android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right" />
+
+</RelativeLayout>

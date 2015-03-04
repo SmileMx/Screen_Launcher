@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="community_text_size">25.0sp</dimen>
+    <dimen name="community_photo_comment_size">12.0sp</dimen>
+    <dimen name="community_photo_num_size">18.0sp</dimen>
+    <dimen name="community_photo_name_size">14.0sp</dimen>
+    <dimen name="channel_set_listview_item_textsize">16.0sp</dimen>
+    <dimen name="flyshare_service_factory_size">18.0sp</dimen>
+    <dimen name="flyshare_service_product_size">18.0sp</dimen>
+    <dimen name="flyshare_service_productinfo_size">12.0sp</dimen>
+    <dimen name="flyshare_service_title_size">20.0sp</dimen>
+    <dimen name="flyshare_service_function_title">23.0sp</dimen>
+    <dimen name="flyshare_service_function_content">16.0sp</dimen>
+    <dimen name="flyshare_service_infoitem_title">16.0sp</dimen>
+    <dimen name="flyshare_service_infoitem_intro">13.0sp</dimen>
+
+    <!-- 资讯字体大小 -->
+    <dimen name="news_text_top_bottom_title_size">22.0sp</dimen>
+    <!-- 专题页顶部专题两字的大小 -->
+    <dimen name="news_text_topictitle_size">19.0sp</dimen>
+    <!-- 资讯主界面4块区域标题的大小 -->
+    <dimen name="news_text_midtitle_size">16.0sp</dimen>
+    <!-- 资讯主界面4块区域来源和时间的大小 -->
+    <dimen name="news_text_from_time_image_size">10.0sp</dimen>
+    <!-- 资讯主界面底部页数字体大小 -->
+    <dimen name="news_text_index_size">12.0sp</dimen>
+    <!-- 资讯主界面重要和第5各区域专题小图标的大小 -->
+    <dimen name="news_text_topicicon_size">10.0sp</dimen>
+    <!-- 资讯主界面4块区域的专题小图标大小 -->
+    <dimen name="news_text_topicicon2_size">7.0sp</dimen>
+
+    <!-- 资讯每个layout的大小 -->
+    <!-- 资讯重要区域高度大小 -->
+    <dimen name="newsmain_important_height">160dp</dimen>
+    <!-- 顶部栏频道名字大小 -->
+    <dimen name="news_titlebar_title">17.0sp</dimen>
+    <!-- 底部栏高度大小 -->
+    <dimen name="news_bottombar">47dp</dimen>
+    <!-- 顶部栏高度大小 -->
+    <dimen name="news_titlebar">50dp</dimen>
+    <!-- 顶部栏包含的小块高度大小 -->
+    <dimen name="news_titlebar2">40dp</dimen>
+    <!-- 资讯主界面重要区域的文字位置 -->
+    <dimen name="news_hasimg">150px</dimen>
+    <!-- 资讯主界面重要区域的文字位置 -->
+    <dimen name="news_nothasimg">80px</dimen>
+
+    <!-- 美图秀秀每个图片块的宽高 -->
+    <dimen name="photos_show_small_width">147px</dimen>
+    <dimen name="photos_show_small_height">133px</dimen>
+    <dimen name="photos_show_big_width">296px</dimen>
+    <dimen name="photos_show_big_height">268px</dimen>
+    <dimen name="photos_show_randomcolor_TextView_size">30sp</dimen>
+    <dimen name="photos_show_top">60dp</dimen>
+    <dimen name="photos_show_gap">2px</dimen>
+    <dimen name="photos_show_pageshow_gap">250dp</dimen>
+    <dimen name="photos_show_pageshow_textsize">20sp</dimen>
+    <dimen name="photos_show_pageshow_top">40dp</dimen>
+
+    <!-- 历史记录列表左右两边距离 -->
+    <dimen name="news_history_right_and_left_gap">13.3dp</dimen>
+    <!-- 历史记录页面顶部栏高度 -->
+    <dimen name="news_history_top_height">40dp</dimen>
+    <!-- 历史记录页面顶部栏左边字大小 -->
+    <dimen name="news_history_top_left_textsize">17.3sp</dimen>
+    <!-- 历史记录页面顶部栏右边字大小 -->
+    <dimen name="news_history_top_right_textsize">14sp</dimen>
+    <!-- 历史记录页面每一个历史标题字大小 -->
+    <dimen name="news_history_item_title_textsize">17.3sp</dimen>
+    <!-- 历史记录页面每一个历史评论字大小 -->
+    <dimen name="news_history_item_comment_textsize">9.3sp</dimen>
+    <!-- 历史记录页面每一个历史评论字左边图片宽和高 -->
+    <dimen name="news_history_item_comment_pic_width_and_height">20dp</dimen>
+    <!-- 历史记录页面每一个来源和时间字大小 -->
+    <dimen name="news_history_item_source_and_time_textsize">10.7sp</dimen>
+    <!-- 历史记录页面每一个来源和时间字间隔 -->
+    <dimen name="news_history_item_source_and_time_gap">6.7dp</dimen>
+    <!-- 历史记录页面每一个时间和是否带图片的间隔 -->
+    <dimen name="news_history_item_time_and_ishasimg_gap">10dp</dimen>
+    <!-- 历史记录页面每一个时间和是否带图片的间隔 -->
+    <dimen name="news_history_item_gap_height">0.7dp</dimen>
+
+    <!-- 资讯详细页面类别字体大小 -->
+    <dimen name="news_detail_bigtype_textsize">14.6sp</dimen>
+    <!-- 资讯详细页面标题字体大小 -->
+    <dimen name="news_detail_title_textsize">22.7sp</dimen>
+    <!-- 资讯详细页面时间字体大小 -->
+    <dimen name="news_detail_time_textsize">10.6sp</dimen>
+    <!-- 资讯详细页面loading字体大小 -->
+    <dimen name="news_detail_loading_textsize">15.0sp</dimen>
+    
+     <!-- 资讯评论 -->
+    <!-- 用户头像旁的箭头位置 -->
+    <dimen name="news_comment_userimg_jiantou_top">10.0dp</dimen>
+    <!-- 回复用户群头像父容器高 -->
+    <dimen name="news_comment_userimgs_layout_height">38.67dp</dimen>
+    <!-- 回复用户群头像父容器宽 -->
+    <dimen name="news_comment_userimgs_layout_width">36.0dp</dimen>
+    <!-- 回复用户群头像父容器底部空隙 -->
+    <dimen name="news_comment_userimgs_layout_padding">6.67dp</dimen>
+    <!-- 评论 回复 字大小 -->
+    <dimen name="news_comment_txtsize">14.67sp</dimen>
+    <!-- 用户名大小 -->
+    <dimen name="news_comment_username_txtsize">12sp</dimen>
+    <!-- 评论内容大小 -->
+    <dimen name="news_comment_content_txtsize">12sp</dimen>
+    <!-- 评论时间大小 -->
+    <dimen name="news_comment_time_txtsize">10.67sp</dimen>
+    <!-- 评论的用户群头像大小 -->
+    <dimen name="news_comment_big_userhead">48.0dp</dimen>
+    <dimen name="news_comment_s_userhead">32.0dp</dimen>
+     <dimen name="news_comment_userhead_heart">15.0dp</dimen>
+     <dimen name="news_comment_operate_margin">6.6dp</dimen>
+     <dimen name="news_comment_content_marginright">10.0dp</dimen>
+     <dimen name="news_replay_textsize_replay">15sp</dimen>
+     
+     <!-- 举报框 -->
+    <dimen name="dialog_report_item_height">63px</dimen>
+    <dimen name="dialog_report_button_height">65px</dimen>
+    <dimen name="dialog_report_item_textsize">22px</dimen>
+    <dimen name="dialog_report_item_button_textsize">20px</dimen>
+
+    <!-- 主界面尺寸 -->
+    <dimen name="mainview_width">140dp</dimen>
+    <dimen name="mainview_height">140dp</dimen>
+    <dimen name="mainview_margin_top">27dp</dimen>
+    <dimen name="mainview_margin_left">16dp</dimen>
+    <dimen name="mainview_distance">8dp</dimen>
+    <dimen name="mainview_small_width">66dp</dimen>
+
+    <!-- 手机加油站 -->
+    <dimen name="appstore_item_width">160dp</dimen>
+    <dimen name="appstore_item_height">143.3dp</dimen>
+    <dimen name="appstore_item_paddingbottom">0dp</dimen>
+    <dimen name="appstore_item_item_width">133.3dp</dimen>
+    <dimen name="appstore_item_item_height">116dp</dimen>
+    <dimen name="appstore_item_item_marginleft">21dp</dimen>
+    <dimen name="appstore_item_item_marginright">15dp</dimen>
+    <dimen name="appstore_item_item_margintop">13dp</dimen>
+    <dimen name="appstore_item_icon_width_and_height">40dp</dimen>
+    <dimen name="appstore_item_icon_margin_gap">6.7dp</dimen>
+    <dimen name="appstore_item_app_name">14.7sp</dimen>
+    <dimen name="appstore_item_app_name_margintop">6.7dp</dimen>
+    <dimen name="appstore_item_app_text_height">15dp</dimen>
+
+    <!-- 全部设置 -->
+    <dimen name="allset_titlebar">26sp</dimen>
+    <dimen name="allset_toptitle">22sp</dimen>
+    <dimen name="allset_summary">11sp</dimen>
+    <dimen name="allset_category">13sp</dimen>
+    <dimen name="allset_icon_margintop">13.0dp</dimen>
+    <dimen name="allset_checkbutton_margintop">50.0dp</dimen>
+
+    <!-- 天气 -->
+    <dimen name="weather_marginleft_gap">16dp</dimen>
+    <dimen name="weather_margintop_line_top">122dp</dimen>
+    <dimen name="weather_imageview_background_width">553.3dp</dimen>
+    <dimen name="weather_imageview_background_height">533.3dp</dimen>
+    <dimen name="weather_city_name_pinying_margintop">40dp</dimen>
+
+    <!-- 黄历 -->
+    <dimen name="calendar_top_height">56dp</dimen>
+    <dimen name="linearlayout_solar_margintop">10dp</dimen>
+    <dimen name="calendar_date_size">140sp</dimen>
+    <dimen name="calendar_date_height">160dp</dimen>
+
+    <!-- loadingDialog高宽 -->
+    <dimen name="loading_dialog_width">480px</dimen>
+    <dimen name="loading_dialog_height">854px</dimen>
+
+    <!-- 底部popupMenu的每项的间隔 小图标的宽高 -->
+    <dimen name="popupmenu_view_width">2px</dimen>
+    <dimen name="popupmenu_item_padding">34px</dimen>
+    <dimen name="popupmenu_item_width">50px</dimen>
+    <dimen name="popupmenu_item_height">50px</dimen>
+    <dimen name="menu_popupwindow_height">72px</dimen>
+
+    <!-- widget4x4 -->
+    <!-- 距离手机屏幕的边距 -->
+    <dimen name="widgetbig_minWidth">260dp</dimen>
+    <dimen name="widgetbig_minHeight">235dp</dimen>
+    <!--
+      针对某些可以桌面横屏的适配
+      <dimen name="widgetbig_minHeight">265dp</dimen>
+      <dimen name="widget_small_news_minHeight">162dp</dimen>
+    -->
+
+    <dimen name="widget_big_width">305dp</dimen>
+    <dimen name="widget_big_height">330dp</dimen>
+
+    <!-- Style的CustomWindowTitleText的android:textSize -->
+    <dimen name="custom_window_text_size">30sp</dimen>
+	    <!-- Style中的Black.NoTitleBar的android:windowTitleSize -->
+    <dimen name="black_notitlebar_title_size">60dip</dimen>
+     <!-- 账号管理布局  begin -->
+    <dimen name="account_title_textsize">24px</dimen>
+    <dimen name="account_edit_textsize">20px</dimen>
+    <dimen name="account_btn_height" >60px</dimen>
+    <dimen name="account_btn_textsize" >22px</dimen>
+    <dimen name="account_hinttv_textsize">18px</dimen>
+        <dimen name="account_headimg_width_height">124px</dimen>
+        <dimen name="account_headimg_margin_bottom">279px</dimen>
+    <dimen name="account_headimg_padding">9px</dimen>
+    <dimen name="account_detail_textsize">15sp</dimen>
+    <dimen name="account_headimg_bg_height">360px</dimen>
+    <dimen name="account_edittext_margin_top">30px</dimen>
+    <dimen name="account_titile_height">64px</dimen>
+    <dimen name="account_regist_info_width">70px</dimen>
+    <dimen name="account_regist_head_margin_top_bottom">35px</dimen>
+    <dimen name="account_alert_info_margin">25px</dimen>
+    <dimen name="account_alert_info_li_margin_top">58px</dimen>
+   
+    
+    <dimen name="account_regist_margin_top">20px</dimen>
+    <dimen name="regist_pwd_btn_margin_top">10px</dimen>
+    <dimen name="account_regist_info_height">90px</dimen>
+    
+    <dimen name="acount_alter_info_item_height">80px</dimen>
+    <dimen name="acount_alter_info_margin_left_and_right">20px</dimen>
+    <dimen name="acount_alter_return_btn_margintop">25px</dimen>
+    
+    <dimen name="acount_alter_change_img_dialog_width">410px</dimen>
+    <dimen name="acount_alter_change_img_dialog_margin_left_or_right">35px</dimen>
+    <dimen name="acount_alter_change_img_dialog_title_textsize">30px</dimen>
+    <dimen name="acount_alter_change_img_dialog_top_or_left">25px</dimen>
+    <dimen name="acount_alter_change_img_dialog_bottom">28px</dimen>
+    <dimen name="acount_alter_change_img_dialog_item_height">80px</dimen>
+    <dimen name="acount_alter_change_img_dialog_item_testsize">24px</dimen>
+    
+    <!-- 账号管理布局 end -->
+    
+     <!-- 分享fragmentdialog参数 -->
+    <dimen name="share_news_width">450px</dimen>
+    <dimen name="share_news_minheight">348px</dimen>
+    <dimen name="share_news_margintop">44px</dimen>
+    <dimen name="share_news_title_size">30px</dimen>
+    <dimen name="share_news_title_margintop">25px</dimen>
+    <dimen name="share_news_columnWidth">225px</dimen>
+    <dimen name="share_news_icon_width">72px</dimen>
+     <dimen name="share_news_app_name_size">24px</dimen>
+     <dimen name="share_news_app_name_margintop">15px</dimen>
+     <dimen name="share_news_app_name_margintbottom">30px</dimen>
+     <dimen name="share_news_app_icon_margintop">40px</dimen>
+     <dimen name="share_news_cancel_btn_height">65px</dimen>
+</resources>

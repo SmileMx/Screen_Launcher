@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/channel_icon_checked" android:state_checked="true" android:state_pressed="false"></item>
+    <item android:drawable="@drawable/channel_icon_checked_over" android:state_pressed="true"  android:state_checked="true"></item>
+    <item android:drawable="@drawable/channel_icon_unchecked_over" android:state_pressed="true"  android:state_checked="false"></item>
+    <item android:drawable="@drawable/channel_icon_unchecked"></item> 
+
+</selector>

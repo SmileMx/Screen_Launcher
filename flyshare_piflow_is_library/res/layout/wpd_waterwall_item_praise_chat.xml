@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/waterwall_img_item_icon_marginbottom"
+    android:paddingTop="@dimen/waterwall_img_item_icon_margintop"
+    android:gravity="right|center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/waterwall_img_item_praise_icon"
+        android:layout_width="@dimen/waterwall_img_item_icon_width_height"
+        android:layout_height="@dimen/waterwall_img_item_icon_width_height" />
+
+    <TextView
+        android:id="@+id/waterwall_img_item_praise_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/waterwall_img_item_icon_praise_tv_maringright"
+        android:gravity="center"
+        android:textColor="#c4c4c4"
+        android:textSize="@dimen/waterwall_img_item_icon_tv_size" />
+
+    <ImageView
+        android:id="@+id/waterwall_img_item_chat_icon"
+        android:layout_width="@dimen/waterwall_img_item_icon_width_height"
+        android:layout_height="@dimen/waterwall_img_item_icon_width_height" />
+
+    <TextView
+        android:id="@+id/waterwall_img_item_chat_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="#c4c4c4"
+        android:textSize="@dimen/waterwall_img_item_icon_tv_size" />
+
+</LinearLayout>

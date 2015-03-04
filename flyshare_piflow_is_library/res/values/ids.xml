@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="channel_set_CheckBox">false</item>
+    <item type="id" name="channel_set_TextView">false</item>
+    <item type="id" name="channel_set_ImageView">false</item>
+    <item type="id" name="channel_set_LinearLayout">false</item>
+    <item type="id" name="news_history_ListView">false</item>
+    <item type="id" name="news_history_title_TextView">false</item>
+    <item type="id" name="news_history_source_TextView">false</item>
+    <item type="id" name="news_history_time_TextView">false</item>
+    <item type="id" name="news_history_comment_count_TextView">false</item>
+    <item type="id" name="special_news_ListView">false</item>
+    <item type="id" name="special_news_title_TextView">false</item>
+    <item type="id" name="special_news_time_TextView">false</item>
+    
+    <item name="selected_view" type="id"/>
+</resources>

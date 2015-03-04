@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 资讯字体大小 -->
+    <dimen name="news_text_top_bottom_title_size">24.0sp</dimen>
+    <!-- 专题页顶部专题两字的大小 -->
+    <dimen name="news_text_topictitle_size">21.0sp</dimen>
+    <!-- 资讯主界面4块区域标题的大小 -->
+    <dimen name="news_text_midtitle_size">15.0sp</dimen>
+    <!-- 资讯主界面4块区域来源和时间的大小 -->
+    <dimen name="news_text_from_time_image_size">11.0sp</dimen>
+    <!-- 资讯主界面底部页数字体大小 -->
+    <dimen name="news_text_index_size">13.0sp</dimen>
+    <!-- 资讯主界面重要和第5各区域专题小图标的大小 -->
+    <dimen name="news_text_topicicon_size">11.0sp</dimen>
+    <!-- 资讯主界面4块区域的专题小图标大小 -->
+    <dimen name="news_text_topicicon2_size">8.0sp</dimen>
+
+    <!-- 资讯每个layout的大小 -->
+    <dimen name="newsmain_important_height">190dp</dimen>
+    <dimen name="news_titlebar_title">20.0sp</dimen>
+    <dimen name="news_bottombar">53dp</dimen>
+    <dimen name="news_titlebar">56dp</dimen>
+    <dimen name="news_titlebar2">50dp</dimen>
+    <!-- 资讯主界面重要区域的文字位置 -->
+    <dimen name="news_hasimg">150px</dimen>
+    <!-- 资讯主界面重要区域的文字位置 -->
+    <dimen name="news_nothasimg">90px</dimen>
+
+    <!-- 资讯详细页面类别字体大小 -->
+    <dimen name="news_detail_bigtype_textsize">17.0sp</dimen>
+    <!-- 资讯详细页面标题字体大小 -->
+    <dimen name="news_detail_title_textsize">24.0sp</dimen>
+    <!-- 资讯详细页面时间字体大小 -->
+    <dimen name="news_detail_time_textsize">12.0sp</dimen>
+    <!-- 资讯详细页面loading字体大小 -->
+    <dimen name="news_detail_loading_textsize">17.0sp</dimen>
+    <!-- 资讯详细页面来源字体大小 -->
+    <dimen name="news_detail_source_textsize">12sp</dimen>
+    
+     <!-- 资讯评论 -->
+    <!-- 用户头像旁的箭头位置 -->
+    <dimen name="news_comment_userimg_jiantou_top">10.67dp</dimen>
+    <!-- 回复用户群头像父容器高 -->
+    <dimen name="news_comment_userimgs_layout_height">43.33dp</dimen>
+    <!-- 回复用户群头像父容器宽 -->
+    <dimen name="news_comment_userimgs_layout_width">40.67dp</dimen>
+    <!-- 回复用户群头像父容器底部空隙 -->
+    <dimen name="news_comment_userimgs_layout_padding">7.0dp</dimen>
+    <!-- 评论 回复 字大小 -->
+    <dimen name="news_comment_txtsize">16.0sp</dimen>
+    <!-- 用户名大小 -->
+    <dimen name="news_comment_username_txtsize">13.33sp</dimen>
+    <!-- 评论内容大小 -->
+    <dimen name="news_comment_content_txtsize">13.33sp</dimen>
+    <!-- 评论时间大小 -->
+    <dimen name="news_comment_time_txtsize">10.67sp</dimen>
+    <!-- 评论的用户群头像大小 -->
+    <dimen name="news_comment_big_userhead">53.33dp</dimen>
+    <dimen name="news_comment_s_userhead">36.0dp</dimen>
+     <dimen name="news_comment_userhead_heart">15.33dp</dimen>
+     <dimen name="news_comment_operate_margin">7.3dp</dimen>
+     <dimen name="news_comment_content_marginright">10.67dp</dimen>
+<dimen name="news_replay_textsize_replay">16sp</dimen>
+    <dimen name="news_comment_jiantou_width">8.7dp</dimen>
+    <dimen name="news_comment_jiantou_height">20dp</dimen>
+    <dimen name="news_comment_reply_top">30dp</dimen>
+    <!-- 心+1 -->
+    <dimen name="news_comment_praise_width_and_height">48dp</dimen>
+    <dimen name="news_comment_praise_text_size">21.3sp</dimen>
+    
+    <!-- 举报框 -->
+    <dimen name="dialog_report_item_height">70px</dimen>
+    <dimen name="dialog_report_button_height">72px</dimen>
+    <dimen name="dialog_report_item_textsize">24px</dimen>
+    <dimen name="dialog_report_item_button_textsize">22px</dimen>
+     <!-- 资讯评论 end -->
+     
+     
+    <!-- 手机服务区*********************************************** -->
+    <!-- 字体 -->
+    <dimen name="flyshare_service_factory_size">21.0sp</dimen>
+    <dimen name="flyshare_service_product_size">20.2sp</dimen>
+    <dimen name="flyshare_service_productinfo_size">14.0sp</dimen>
+    <dimen name="flyshare_service_title_size">22.5sp</dimen>
+    <dimen name="flyshare_service_function_title">26.5sp</dimen>
+    <dimen name="flyshare_service_function_content">18.0sp</dimen>
+    <dimen name="flyshare_service_infoitem_title">19.0sp</dimen>
+    <dimen name="flyshare_service_infoitem_intro">15.0sp</dimen>
+    <dimen name="flyshare_service_infoitem_imgheight">170px</dimen>
+    <dimen name="flyshare_service_infoitem_imgwidth">100px</dimen>
+    <!-- 全部设置 -->
+    <dimen name="allset_titlebar">28sp</dimen>
+    <dimen name="allset_toptitle">25sp</dimen>
+    <dimen name="allset_summary">13sp</dimen>
+    <dimen name="allset_category">15sp</dimen>
+    <dimen name="allset_icon_margintop">15.0dp</dimen>
+    <dimen name="allset_checkbutton_margintop">50.0dp</dimen>
+
+    <!-- 主界面尺寸 -->
+    <dimen name="mainview_width">236px</dimen>
+    <dimen name="mainview_height">236px</dimen>
+    <dimen name="mainview_margin_top">47px</dimen>
+    <dimen name="mainview_margin_left">10px</dimen>
+    <dimen name="mainview_distance">14px</dimen>
+    <dimen name="mainview_small_width">111px</dimen>
+    <dimen name="mainview_img_width">200px</dimen>
+    <dimen name="mainview_num_size">50sp</dimen>
+    <dimen name="mainview_channelname_size">15sp</dimen>
+
+    <!-- 美图秀秀每个图片块的宽高 -->
+    <dimen name="photos_show_small_width">165px</dimen>
+    <dimen name="photos_show_small_height">150px</dimen>
+    <dimen name="photos_show_big_width">332px</dimen>
+    <dimen name="photos_show_big_height">302px</dimen>
+    <dimen name="photos_show_randomcolor_TextView_size">30sp</dimen>
+    <dimen name="photos_show_top">30dp</dimen>
+    <dimen name="photos_show_gap">2px</dimen>
+    <dimen name="photos_show_pageshow_gap">250dp</dimen>
+    <dimen name="photos_show_pageshow_textsize">15sp</dimen>
+    <dimen name="photos_show_pageshow_top">10dp</dimen>
+
+    <!-- 手机加油站 -->
+    <dimen name="appstore_item_width">160dp</dimen>
+    <dimen name="appstore_item_height">143.3dp</dimen>
+    <dimen name="appstore_item_paddingbottom">2dp</dimen>
+    <dimen name="appstore_item_item_width">153dp</dimen>
+    <dimen name="appstore_item_item_height">116dp</dimen>
+    <dimen name="appstore_item_item_marginleft">21dp</dimen>
+    <dimen name="appstore_item_item_marginright">15dp</dimen>
+    <dimen name="appstore_item_item_margintop">13dp</dimen>
+    <dimen name="appstore_item_icon_width_and_height">40dp</dimen>
+    <dimen name="appstore_item_icon_margin_gap">6.7dp</dimen>
+    <dimen name="appstore_item_app_name">14.7sp</dimen>
+    <dimen name="appstore_item_app_name_margintop">6.7dp</dimen>
+    <dimen name="appstore_item_app_text_height">15dp</dimen>
+    <!-- 手机加油站应用详情 -->
+    <dimen name="appstore_detail_app_categoryTv_height">72dp</dimen>
+    <dimen name="appstore_detail_app_categoryTv_paddingLeft">14dp</dimen>
+    <dimen name="appstore_detail_app_categoryTv_paddingTop">24dp</dimen>
+    <dimen name="appstore_detail_app_categoryTv_size">27sp</dimen>
+    <dimen name="appstore_detail_appIcon_relativeLayout_height">89.5dp</dimen>
+    <dimen name="appstore_detail_appIcon_width_height">63dp</dimen>
+    <dimen name="appstore_detail_appIcon_appName_size">20sp</dimen>
+    <dimen name="appstore_detail_app_instro_size">20.0px</dimen>
+    <dimen name="appstore_detail_app_horizontalscrollview_height">271.2dp</dimen>
+    <dimen name="appstore_detail_app_gridview_marginTop">15.6dp</dimen>
+    <dimen name="appstore_detail_app_gridview_marginLeftRight">15dp</dimen>
+    <dimen name="appstore_detail_app_gridview_columnWidth">127.4dp</dimen>
+    <dimen name="appstore_detail_app_gridview_horizontalSpacing">11.2dp</dimen>
+    <dimen name="appstore_detail_app_gridview_item_height">226.3dp</dimen>
+    
+    <!-- 新手机加油站 -->
+    <dimen name="appmain_top_title_size">22px</dimen>
+    <dimen name="appmain_title_parents_height">146.0px</dimen>
+    <dimen name="appmain_title_height">70px</dimen>
+    <dimen name="appmain_title_width">2000.0px</dimen>
+    <dimen name="appmain_title_margintop">76px</dimen>
+    <dimen name="appmain_content_margintop">212px</dimen>
+    <dimen name="appmain_title_margin_left">70.0px</dimen>
+    <dimen name="appmain_type_item_penddingtop">22.0px</dimen>
+    <dimen name="appmain_type_iv_pendding">2dp</dimen>
+    <dimen name="appmain_type_item_iv">72.0px</dimen>
+    <dimen name="appmain_type_item_txsize">42px</dimen>
+    <dimen name="appmain_marrow_listview_padding">26px</dimen>
+    <dimen name="appmain_marrow_icon">80px</dimen>
+    <dimen name="appmain_marrow_icon_large">168px</dimen>
+    <dimen name="appmain_marrow_icon_name_margin">10px</dimen>
+    <dimen name="appmain_marrow_item_small_height">115px</dimen>
+    <dimen name="app_detail_icon">180px</dimen>
+    <dimen name="app_detail_intro_title">28px</dimen>
+    <dimen name="app_detail_intro_margintop">18px</dimen>
+    <dimen name="app_detail_icon_download">56px</dimen>
+    <dimen name="app_detail_txtnum_download">20px</dimen>
+    <dimen name="app_detail_txtnum_margin">6px</dimen>
+
+    <!-- 关于 -->
+    <dimen name="about_word_size">17sp</dimen>
+    <dimen name="about_top_word_size">38sp</dimen>
+
+    <!-- 天气 -->
+    <dimen name="weather_marginleft_gap">16dp</dimen>
+    <dimen name="weather_margintop_line_top">122dp</dimen>
+    <dimen name="weather_imageview_background_width">747dp</dimen>
+    <dimen name="weather_imageview_background_height">720dp</dimen>
+    <dimen name="weather_city_name_pinying_margintop">40dp</dimen>
+
+    <!-- loadingDialog高宽 -->
+    <dimen name="loading_dialog_width">540px</dimen>
+    <dimen name="loading_dialog_height">960px</dimen>
+
+    <!-- 黄历 -->
+    <dimen name="calendar_top_height">56dp</dimen>
+    <dimen name="linearlayout_solar_margintop">10dp</dimen>
+    <dimen name="calendar_date_size">140sp</dimen>
+    <dimen name="calendar_date_height">165dp</dimen>
+
+    <!-- 底部popupMenu的每项的间隔 小图标的宽高 -->
+    <dimen name="popupmenu_view_width">2px</dimen>
+    <dimen name="popupmenu_item_padding">38px</dimen>
+    <dimen name="popupmenu_item_width">56px</dimen>
+    <dimen name="popupmenu_item_height">56px</dimen>
+    <dimen name="menu_popupwindow_height">80px</dimen>
+    <!-- widget4x4 -->
+    <!-- 距离手机屏幕的边距 -->
+    <dimen name="widgetbig_minWidth">306dp</dimen>
+    <dimen name="widgetbig_minHeight">240dp</dimen>
+    <dimen name="widget_big_width">350dp</dimen>
+    <dimen name="widget_big_height">340dp</dimen>
+    <dimen name="widgetbig_bootomheight">195dp</dimen>
+    <dimen name="widgetbig_topwidth">340dp</dimen>
+    <dimen name="widgetbig_topheight">140dp</dimen>
+    <dimen name="widget_clock_bottom_big_marginTop">112dp</dimen>
+    <dimen name="widget_clock_bottom_big_marginLeft">4dp</dimen>
+    <dimen name="widget_date_TextView_big_textSize">9sp</dimen>
+    <dimen name="widget_logo_ImageView_big_marginLeft">15dp</dimen>
+    <dimen name="widget_hour_unit_ImageView_big_marginRight">70dp</dimen>
+    <dimen name="widget_min_decade_ImageView_big_marginRight">9dp</dimen>
+    <dimen name="widget_news_refresh_ImageView_big_marg">0dp</dimen>
+    <dimen name="widget_news_refresh_ProgressBar_big_marginRight">8dp</dimen>
+    <dimen name="widget_news_refresh_ImageView_big_marginRight">0dp</dimen>
+    <dimen name="widget_news_to_left_ImageView_big_marginRight">0dp</dimen>
+    <dimen name="widget_news_channel_TextView_big_marginLeft">24dp</dimen>
+    <dimen name="widget_news_imgL_ImageView_big_left">24dp</dimen>
+    <dimen name="widget_news_infoL_Button_big_width_marginLeft">24dp</dimen>
+    <dimen name="widget_news_imgL_ImageView_big_widt">146dp</dimen>
+    <dimen name="widget_news_imgR_ImageView_big_width">146dp</dimen>
+    <dimen name="widget_news_infoL_Button_big_width">146dp</dimen>
+    <dimen name="widget_news_infoR_Button_big_width">145dp</dimen>
+    <dimen name="widget_min_unit_ImageView_big_marginRight">45dp</dimen>
+    <dimen name="widgetbig_topnummarginTop">7dp</dimen>
+    <dimen name="linel_marginTop">69dp</dimen>
+    <dimen name="line2l_marginTop">69dp</dimen>
+    <dimen name="line_width">136dp</dimen>
+    <dimen name="linel_marginLeft">23dp</dimen>
+    <dimen name="line2l_width">136dp</dimen>
+    <dimen name="line2l_marginRight">22dp</dimen>
+
+    <!-- Style的CustomWindowTitleText的android:textSize -->
+    <dimen name="custom_window_text_size">30sp</dimen>
+    <!-- Style中的Black.NoTitleBar的android:windowTitleSize -->
+    <dimen name="black_notitlebar_title_size">60dip</dimen>
+     <!-- 账号管理布局  begin -->
+    <dimen name="account_title_textsize">26px</dimen>
+    <dimen name="account_edit_textsize">22px</dimen>
+    <dimen name="account_btn_height" >80px</dimen>
+    <dimen name="account_btn_textsize" >24px</dimen>
+    <dimen name="account_hinttv_textsize">20px</dimen>
+    <dimen name="account_headimg_width_height">140px</dimen>
+    <dimen name="account_headimg_margin_bottom">313px</dimen>
+    <dimen name="account_headimg_padding">9px</dimen>
+    <dimen name="account_check_box">34px</dimen>
+    <dimen name="account_detail_textsize">22px</dimen>
+    <dimen name="account_headimg_bg_height">405px</dimen>
+    <dimen name="account_edittext_margin_top">54px</dimen>
+    <dimen name="account_titile_height">72px</dimen>
+    <dimen name="account_regist_info_width">98px</dimen>
+    <dimen name="account_regist_head_margin_top_bottom">40px</dimen>
+    <dimen name="account_alert_info_margin">28px</dimen>
+    <dimen name="account_alert_info_li_margin_top">65px</dimen>
+    
+    <dimen name="account_regist_info_height">98px</dimen>
+    <dimen name="acount_alter_info_item_height">90px</dimen>
+    
+    <dimen name="acount_alter_change_img_dialog_width">460px</dimen>
+    <dimen name="acount_alter_change_img_dialog_margin_left_or_right">40px</dimen>
+    <dimen name="acount_alter_change_img_dialog_title_textsize">32px</dimen>
+    <dimen name="acount_alter_change_img_dialog_top_or_left">28px</dimen>
+    <dimen name="acount_alter_change_img_dialog_bottom">32px</dimen>
+    <dimen name="acount_alter_change_img_dialog_item_height">90px</dimen>
+    <dimen name="acount_alter_change_img_dialog_item_testsize">26px</dimen>
+    <!-- 账号管理布局 end -->
+    
+    <!-- 新手机加油站分类页 -->
+    <dimen name="appstore_layout_category_title_size">22px</dimen>
+    <dimen name="appstore_layout_category_title_margintop">13.3dp</dimen>
+    <dimen name="appstore_layout_category_title_marginbottom">20dp</dimen>
+    <dimen name="appstore_layout_background_width">960dp</dimen>
+    <dimen name="appstore_layout_background_height">533.3dp</dimen>
+    <dimen name="appstore_layout_search_icon_width_and_height">68px</dimen>
+    <dimen name="appstore_layout_category_title_layout_margintop">46.7dp</dimen>
+    <dimen name="appstore_category_title_textsize">70px</dimen>
+    <dimen name="appstore_category_title_text_paddingright">70px</dimen>
+    
+    <!-- 分类页面item -->
+    <dimen name="app_listview_item_height">112px</dimen>
+    <dimen name="app_listview_item_padding_left_and_right">26px</dimen>
+    <dimen name="app_listview_item_marginbottom">22px</dimen>
+    <dimen name="app_listview_item_name_size">42px</dimen>
+    <dimen name="app_listview_item_download_num_size">20px</dimen>
+    <dimen name="app_listview_item_download_btn_width_and_height">56px</dimen>
+    <dimen name="app_listview_item_name_marginleft">22px</dimen>
+    
+    <!-- 新手机加油站搜索页 -->
+    <dimen name="appstore_search_marginLeft_and_right">26px</dimen>
+    <dimen name="appstore_search_title_textsize">70px</dimen>
+    <dimen name="appstore_search_title_margintop">65px</dimen>
+    <dimen name="appstore_search_title_marginbottom">50px</dimen>
+    <dimen name="appstore_search_et_height">56px</dimen>
+    <dimen name="appstore_search_et_btn_width">80px</dimen>
+    <dimen name="appstore_search_history_margintop">56px</dimen>
+    <dimen name="appstore_search_history_item_textsize">42px</dimen>
+    <dimen name="appstore_search_et_textsize">24px</dimen>
+    
+     <!--  抽奖模块-->
+    <dimen name="lottery_draw_bg_padding">115.0dp</dimen>
+    <dimen name="lottery_draw_turntable_width">435.0px</dimen>
+    <dimen name="lottery_draw_turntable_margintop">110.0dp</dimen>
+    <dimen name="lottery_draw_lottery_draw_pointer_width">148.0px</dimen>
+     <dimen name="lottery_draw_lottery_draw_pointer_height">192.0px</dimen>
+     <dimen name="lottery_draw_lottery_draw_pointer_margintop">255.0dp</dimen>
+     <dimen name="lottery_draw_prize_width">50.0dp</dimen>
+     <dimen name="lottery_draw_prize_margintop">13.0dp</dimen>
+     <dimen name="lottery_draw_prize_item_size">14.6dp</dimen>
+     
+    
+    <dimen name="lottery_marquee_txt_size">13.0sp</dimen>
+    <dimen name="lottery_marquee_padding">8.0dp</dimen>
+    <dimen name="lottery_marquee_height">25.34dp</dimen>
+    <dimen name="lottery_marquee_time_size">9.3dp</dimen>
+    <dimen name="lottery_marquee_time_margintop">13.33dp</dimen>
+     <dimen name="lottery_marquee_time_marginright">7.33dp</dimen>
+     
+     <dimen name="lottery_checking_bg_margin">20dp</dimen>
+     <dimen name="lottery_checking_bg_width">280dp</dimen>
+     <dimen name="lottery_checking_bg_height">300dp</dimen>
+     <dimen name="lottery_checking_content_margin">15dp</dimen>
+     <dimen name="lottery_checking_content_size">17sp</dimen>
+      <dimen name="lottery_checking_tmp_size">12sp</dimen>
+      <dimen name="lottery_checking_tmp_margintop">5dp</dimen>
+      <dimen name="lottery_checking_edt_height">35dp</dimen>
+     <dimen name="lottery_draw_win_content_size">20sp</dimen>
+     
+     <!-- 瀑布流应用推广界面 -->
+    <dimen name="waterfall_appdetail_download_layout_height">78px</dimen>
+    <dimen name="waterfall_appdetail_download_progressbar_height">56px</dimen>
+    <dimen name="waterfall_appdetail_margin">26px</dimen>
+     
+         <!-- 瀑布流 -->
+    <!-- 图片item -->
+    <dimen name="waterwall_img_item_layout_margin">0dp</dimen>
+    <dimen name="waterwall_img_item_img_width">248px</dimen>
+    <dimen name="waterwall_img_item_textview_height">50px</dimen>
+    <dimen name="waterwall_img_item_textview_size">20px</dimen>
+    <dimen name="waterwall_img_item_textview_margintop">14px</dimen>
+    <dimen name="waterwall_img_item_textview_marginbottom">0px</dimen>   
+    
+    <dimen name="waterwall_img_item_icon_marginbottom">12px</dimen>
+    <dimen name="waterwall_img_item_icon_margintop">20px</dimen>
+    <dimen name="waterwall_img_item_icon_width_height">32px</dimen>
+    <dimen name="waterwall_img_item_icon_tv_size">16px</dimen>
+    <dimen name="waterwall_img_item_icon_praise_tv_maringright">26px</dimen>
+    
+    <!-- 文字item -->
+    <dimen name="waterwall_text_item_tv_marginleft_right">10px</dimen>
+    
+    <dimen name="waterwall_text_item01_tv_height">205px</dimen>
+    <dimen name="waterwall_text_item01_tv_margintop">36px</dimen>
+    <dimen name="waterwall_text_item01_tv_marginbottom">36px</dimen>    
+    <dimen name="waterwall_text_item01_tv_lineSpacingExtra">10px</dimen>
+    <dimen name="waterwall_text_item01_tv_size">27px</dimen>
+    
+    <dimen name="waterwall_text_item02_title_height">110px</dimen>
+    <dimen name="waterwall_text_item02_title_margintop">36px</dimen>
+    <dimen name="waterwall_text_item02_title_marginbottom">22px</dimen>
+    <dimen name="waterwall_text_item02_title_size">27px</dimen>
+    <dimen name="waterwall_text_item02_title_lineSpacingExtra">4px</dimen>
+    <dimen name="waterwall_text_item02_content_height">185px</dimen>
+    <dimen name="waterwall_text_item02_content_size">20px</dimen>
+    <dimen name="waterwall_text_item02_content_lineSpacingExtra">2px</dimen>
+    <dimen name="waterwall_text_item02_content_marginbottom">16px</dimen>
+    
+    <dimen name="waterwall_text_item03_content_height">215px</dimen>
+    <dimen name="waterwall_text_item03_content_margintop">36px</dimen>
+    <dimen name="waterwall_text_item03_content_marginbottom">22px</dimen>
+    <dimen name="waterwall_text_item03_content_lineSpacingExtra">4px</dimen>
+    <dimen name="waterwall_text_item03_content_size">27px</dimen>
+    <dimen name="waterwall_text_item03_title_height">50px</dimen>
+    <dimen name="waterwall_text_item03_title_marginbottom">16px</dimen>
+    <dimen name="waterwall_text_item03_title_lineSpacingExtra">2px</dimen>
+    <dimen name="waterwall_text_item03_title_size">20px</dimen>
+    
+    <dimen name="waterwall_banner_img_width">518px</dimen>
+    
+    <dimen name="waterwall_progress_margintop">290dp</dimen>
+	 <dimen name="waterfall_newsdetail_tv_margin">26px</dimen>
+	 
+	 <!-- 瀑布流视频、音频、阅读广告 -->
+    <dimen name="waterfall_newsdetail_audio_img_height">405.0px</dimen>
+    <dimen name="waterfall_newsdetail_audio_icon_height">122px</dimen>
+    <dimen name="waterfall_newsdetail_audio_title_height">60px</dimen>
+    <dimen name="waterfall_newsdetail_audio_title_size">22px</dimen>
+    <dimen name="waterfall_newsdetail_audio_summery_size">38px</dimen>
+    <dimen name="waterfall_newsdetail_audio_content_size">20px</dimen>
+    <dimen name="waterfall_newsdetail_audio_txt_paddingleft">25px</dimen>
+    
+    
+    <!-- 分享fragmentdialog参数 -->
+    <dimen name="share_news_width">506px</dimen>
+    <dimen name="share_news_minheight">391px</dimen>
+    <dimen name="share_news_margintop">50px</dimen>
+    <dimen name="share_news_title_size">34px</dimen>
+    <dimen name="share_news_title_margintop">28px</dimen>
+    <dimen name="share_news_columnWidth">253px</dimen>
+    <dimen name="share_news_icon_width">81px</dimen>
+     <dimen name="share_news_app_name_size">27px</dimen>
+     <dimen name="share_news_app_name_margintop">17px</dimen>
+     <dimen name="share_news_app_name_margintbottom">34px</dimen>
+     <dimen name="share_news_app_icon_margintop">45px</dimen>
+     <dimen name="share_news_cancel_btn_height">73px</dimen>
+</resources>

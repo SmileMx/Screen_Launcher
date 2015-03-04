@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/news_detail_ads_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/news_detail_content_lv"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/news_detail_original_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:background="@drawable/wf_news_orighinal_btn_selector"
+                    android:paddingBottom="6.7dp"
+                    android:paddingTop="6.7dp"
+                    android:text="开启原文"
+                    android:textColor="#989898"
+                    android:textSize="@dimen/news_detail_bigtype_textsize"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/news_detail_ads"
+                    layout="@layout/wpc_waterfall_newsdetail_soft_ads"
+                    android:visibility="gone" />
+            </LinearLayout>

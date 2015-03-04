@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="menu_popupwindow_height">108</integer>
+    <integer name="comment_userimgs_margin">10</integer>
+    <integer name="newsmain_push_anim_duration">500</integer>
+    <integer name="comment_report_dialog_width">616</integer>
+    <!-- 评论、分享、收藏小图标大小 -->
+    <integer name="comment_icon_size">55</integer>
+    <integer name="account_headimg_width_height">168</integer>
+    <integer name="account_headimg_bg_width">720</integer>
+    <integer name="account_headimg_bg_height">540</integer>
+    <integer name="account_headimg_bg_width_scale">4</integer>
+    <integer name="account_headimg_bg_height_sacle">3</integer>
+
+    <!-- 新手机加油站 -->
+    <integer name="appmain_scrollx">276</integer>
+	<!-- 分类页面导航title每个字块宽  与字大小一样 -->
+	<integer name="app_category_title_textsize">92</integer>
+
+    <!-- 主界面用到的 -->
+    <integer name="main_modular_width">167</integer>
+    <integer name="main_modular_distance">9</integer>
+    <integer name="main_modular_iconleft">61</integer>
+    
+    <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">275</integer>
+    <integer name="main_showword_top">250</integer>
+    <integer name="main_del_left">20</integer>
+    <integer name="main_del_right">40</integer>
+<integer name="waterfall_detail_imageview_width">660</integer>
+    <integer name="waterfall_detail_content_space">20</integer>
+    
+    <integer name="waterfall_audio_title_height">78</integer>
+    <integer name="waterfall_audio_img_height">540</integer>
+</resources>

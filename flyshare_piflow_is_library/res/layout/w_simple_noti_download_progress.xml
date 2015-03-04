@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 简单下载进度风格 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    tools:ignore="ContentDescription" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5.0dp"
+        android:layout_marginRight="10.0dp"
+        android:src="@android:drawable/stat_sys_download" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/image" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@android:style/TextAppearance.StatusBar.EventContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="语音引擎下载中" />
+
+        <ProgressBar
+            android:id="@+id/simple_download_progressbar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/tv_title"
+            android:progressDrawable="@drawable/download_progressbar_style" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/acount_alter_change_img_dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_top_bg"
+    android:minWidth="270dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/msg_tv"
+        style="@style/DialogText.Title"
+        android:layout_width="@dimen/acount_alter_change_img_dialog_width"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/acount_alter_change_img_dialog_bottom"
+        android:paddingLeft="@dimen/acount_alter_change_img_dialog_top_or_left"
+        android:paddingTop="@dimen/acount_alter_change_img_dialog_top_or_left"
+        android:text="更换头像" />
+
+    <ImageView
+        android:layout_width="@dimen/acount_alter_change_img_dialog_width"
+        android:layout_height="3px"
+        android:background="#33b5e5" />
+
+    <LinearLayout
+        android:id="@+id/camera_linear"
+        android:layout_width="@dimen/acount_alter_change_img_dialog_width"
+        android:layout_height="@dimen/acount_alter_change_img_dialog_item_height" 
+        android:background="@drawable/dialog_btn_left_bg_xml"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/DialogText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拍摄新照片"
+            android:layout_marginLeft="@dimen/acount_alter_change_img_dialog_top_or_left"
+            android:textSize="@dimen/acount_alter_change_img_dialog_item_testsize" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/acount_alter_change_img_dialog_width"
+        android:layout_height="1px"
+        android:background="#4a4a4a" />
+
+    <LinearLayout
+        android:id="@+id/photo_linear"
+        android:layout_width="@dimen/acount_alter_change_img_dialog_width"
+        android:layout_height="@dimen/acount_alter_change_img_dialog_item_height" 
+        android:background="@drawable/dialog_btn_left_bg_xml"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            style="@style/DialogText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="从相册中选取"
+            android:layout_marginLeft="@dimen/acount_alter_change_img_dialog_top_or_left" 
+            android:textSize="@dimen/acount_alter_change_img_dialog_item_testsize" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 资讯字体大小 -->
+    <dimen name="news_text_top_bottom_title_size">22.0sp</dimen>
+    <dimen name="news_text_topictitle_size">19.0sp</dimen>
+    <dimen name="news_text_midtitle_size">18.0sp</dimen>
+    <dimen name="news_text_from_time_image_size">11.0sp</dimen>
+    <dimen name="news_text_index_size">12.0sp</dimen>
+    <dimen name="news_text_topicicon_size">10.0sp</dimen>
+    <dimen name="news_text_topicicon2_size">7.0sp</dimen>
+
+    <!-- 资讯每个layout的大小 -->
+    <dimen name="newsmain_important_height">180dp</dimen>
+    <dimen name="news_titlebar_title">25.0sp</dimen>
+    <dimen name="news_bottombar">47dp</dimen>
+    <dimen name="news_titlebar">65dp</dimen>
+    <dimen name="news_titlebar2">55dp</dimen>
+
+    <!-- 资讯详细页面类别字体大小 -->
+    <dimen name="news_detail_bigtype_textsize">19sp</dimen>
+
+    <!-- 主界面尺寸 -->
+    <dimen name="mainview_width">351px</dimen>
+    <dimen name="mainview_height">351px</dimen>
+    <dimen name="mainview_margin_top">63px</dimen>
+    <dimen name="mainview_margin_left">24px</dimen>
+    <dimen name="mainview_distance">18px</dimen>
+    <dimen name="mainview_small_width">149px</dimen>
+    <dimen name="mainview_img_width">194px</dimen>
+    <dimen name="mainview_num_size">50sp</dimen>
+    <dimen name="mainview_channelname_size">20sp</dimen>
+
+    <!-- loadingDialog高宽 -->
+    <dimen name="loading_dialog_width">720px</dimen>
+    <dimen name="loading_dialog_height">1184px</dimen>
+
+    <!-- 底部popupMenu的每项的间隔 小图标的宽高 -->
+    <dimen name="popupmenu_view_width">3px</dimen>
+    <dimen name="popupmenu_item_padding">51px</dimen>
+    <dimen name="popupmenu_item_width">75px</dimen>
+    <dimen name="popupmenu_item_height">75px</dimen>
+    <dimen name="menu_popupwindow_height">108px</dimen>
+
+    <!-- Style的CustomWindowTitleText的android:textSize -->
+    <dimen name="custom_window_text_size">45sp</dimen>
+	    <!-- Style中的Black.NoTitleBar的android:windowTitleSize -->
+    <dimen name="black_notitlebar_title_size">90dip</dimen>
+    
+    <dimen name="waterfall_newsdetail_tv_margin">30px</dimen>
+
+    <dimen name="share_news_width">720px</dimen>
+    <dimen name="share_news_minheight">557px</dimen>
+    <dimen name="share_news_margintop">70.4px</dimen>
+    <dimen name="share_news_title_size">48px</dimen>
+    <dimen name="share_news_title_margintop">40px</dimen>
+    <dimen name="share_news_columnWidth">360px</dimen>
+    <dimen name="share_news_icon_width">115px</dimen>
+     <dimen name="share_news_app_name_size">38.5px</dimen>
+     <dimen name="share_news_app_name_margintop">24px</dimen>
+     <dimen name="share_news_app_name_margintbottom">48px</dimen>
+     <dimen name="share_news_app_icon_margintop">64px</dimen>
+     <dimen name="share_news_cancel_btn_height">104px</dimen>
+</resources>

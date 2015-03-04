@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="menu_popupwindow_height">120</integer>
+    <integer name="menu_popupwindow_tts_setting_height">360</integer>
+    <integer name="comment_userimgs_margin">10</integer>
+    <integer name="newsmain_push_anim_duration">500</integer>
+    <integer name="account_headimg_width_height">188</integer>
+    <integer name="account_headimg_bg_width">800</integer>
+    <integer name="account_headimg_bg_height">600</integer>
+    <integer name="account_headimg_bg_width_scale">4</integer>
+    <integer name="account_headimg_bg_height_sacle">3</integer>
+
+    <!-- 主界面用到的 -->
+    <integer name="main_modular_width">185</integer>
+    <integer name="main_modular_distance">10</integer>
+    <integer name="main_modular_iconleft">67</integer>
+ <!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">720</integer>
+    <integer name="waterfall_detail_content_space">22</integer>
+</resources>

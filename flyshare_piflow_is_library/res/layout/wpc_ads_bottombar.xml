@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/waterfall_appdetail_download_layout_height"
+    android:background="@color/deep_white" >
+
+    <ProgressBar
+        android:id="@+id/waterfall_appdetail_download_pb"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/waterfall_appdetail_download_progressbar_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+        android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+        android:progressDrawable="@drawable/waterfall_downapp_progressbar_style" />
+
+    <RelativeLayout
+        android:id="@+id/waterfall_appdetail_download_ly"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/waterfall_appdetail_download_progressbar_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+        android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+        android:background="@drawable/waterfall_downapp_item_selector"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/waterfall_appdetail_download_icon"
+            android:layout_width="@dimen/waterfall_appdetail_download_icon"
+            android:layout_height="@dimen/waterfall_appdetail_download_icon"
+            android:src="@drawable/allset_download" />
+
+        <TextView
+            android:id="@+id/waterfall_appdetail_download_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/waterfall_appdetail_download_icon"
+            android:text="下载网易新闻"
+            android:textColor="@color/deep_white"
+            android:textSize="@dimen/waterfall_appdetail_intro_txtsize" />
+    </RelativeLayout>
+
+</FrameLayout>

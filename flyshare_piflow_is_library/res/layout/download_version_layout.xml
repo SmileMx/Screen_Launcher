@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/updateversion_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:textColor="@color/black"
+        android:text="已经完成33%"/>
+    <TextView 
+        android:id="@+id/updateversion_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:textColor="@color/black"
+        android:text="速度122KB/S"/>
+
+</LinearLayout>

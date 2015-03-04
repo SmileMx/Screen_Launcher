@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 频道设置页面更多选项用到的参数 -->
+	<string name="channel_set_more_popupwindow_width">320</string>
+    <string name="channel_set_more_popupwindow_height">400</string>
+    <string name="channel_set_more_popupwindow_showatlocation_x">230</string>
+    <string name="channel_set_more_popupwindow_showatlocation_y">49</string>
+    
+	<!-- 资讯主页面更多选项用到的参数 -->
+    <string name="news_main_more_popupwindow_width">310</string>
+    <string name="news_main_more_popupwindow_height">285</string>
+    <string name="news_main_more_popupwindow_showatlocation_x">210</string>
+    <string name="news_main_more_popupwindow_showatlocation_y">60</string>
+    
+    <!-- 资讯详细页面更多选项用到的参数 -->
+    <string name="news_common_more_popupwindow_width">285</string>
+    <string name="news_common_more_popupwindow_height">190</string>
+    <string name="news_common_more_popupwindow_showatlocation_x">218</string>
+    <string name="news_common_more_popupwindow_showatlocation_y">65</string>
+    
+    <!-- 历史记录页面更多选项用到的参数 -->
+    <string name="news_history_more_popupwindow_width">300</string>
+    <string name="news_history_more_popupwindow_height">95</string>
+    <string name="news_history_more_popupwindow_showatlocation_x">210</string>
+    <string name="news_history_more_popupwindow_showatlocation_y">85</string>
+    
+     <!-- 适配WP8主界面各种尺寸资源 -->
+	<string name="modular_margin_top">50</string>
+	<string name="modular_margin_left">24</string>
+	<string name="modular_distance">12</string>
+	<string name="modular_large_width">210</string>
+	<string name="modular_large_height">210</string>
+	<string name="modular_normal_width">210</string>
+	<string name="modular_normal_height">99</string>
+	<string name="modular_small_width">99</string>
+	<string name="modular_small_height">99</string>
+	<string name="modular_last_y">1604</string>
+	
+	<!-- 适配手机加油站应用详情的图片显示 -->
+	<string name="appstore_detail_gridview_width">260</string>
+	<string name="appstore_detail_gridview_padding">15</string>
+	<string name="appstore_detail_gridview_marge">55</string>
+	
+	<!-- 黄历页面更多选项用到的参数 -->
+    <string name="calendar_more_popupwindow_width">275</string>
+    <string name="calendar_more_popupwindow_height">95</string>
+    <string name="calendar_more_popupwindow_showatlocation_x">223</string>
+    <string name="calendar_more_popupwindow_showatlocation_y">85</string>
+	
+    <!-- 天气页面更多选项用到的参数 -->
+    <string name="weather_more_popupwindow_width">260</string>
+    <string name="weather_more_popupwindow_height">95</string>
+    <string name="weather_more_popupwindow_showatlocation_x">230</string>
+    <string name="weather_more_popupwindow_showatlocation_y">85</string>
+    
+</resources>

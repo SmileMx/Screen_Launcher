@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="42.6dp"
+    android:orientation="horizontal"
+    android:background="@drawable/more_popupwind_selector" >
+    <ImageView 
+        android:id="@+id/channel_popwindow_ImageView"
+        android:layout_width="26.7dp"
+        android:layout_height="26.7dp"
+        android:layout_gravity="center"
+        android:src="@drawable/more_settings"
+        android:layout_marginLeft="13.3dp"/>
+    <TextView 
+        android:id="@+id/channel_popwindow_TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="42.6dp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="下载"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="6.7dp"/>
+</LinearLayout>

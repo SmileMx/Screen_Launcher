@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="menu_popupwindow_height">120</integer>
+    <integer name="menu_popupwindow_tts_setting_height">360</integer>
+    <integer name="comment_userimgs_margin">10</integer>
+    <integer name="newsmain_push_anim_duration">500</integer>
+    <integer name="comment_report_dialog_width">684</integer>
+    <!-- 评论、分享、收藏小图标大小 -->
+    <integer name="comment_icon_size">55</integer>
+    <integer name="account_headimg_width_height">188</integer>
+    <integer name="account_headimg_bg_width">800</integer>
+    <integer name="account_headimg_bg_height">600</integer>
+    <integer name="account_headimg_bg_width_scale">4</integer>
+    <integer name="account_headimg_bg_height_sacle">3</integer>
+<!-- 新手机加油站 -->
+    <integer name="appmain_scrollx">306</integer>
+    <!-- 主界面用到的 -->
+    <integer name="main_modular_width">185</integer>
+    <integer name="main_modular_distance">10</integer>
+    <integer name="main_modular_iconleft">67</integer>
+    
+    <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">305</integer>
+    <integer name="main_showword_top">265</integer>
+    <integer name="main_del_left">20</integer>
+    <integer name="main_del_right">40</integer>
+    
+    <!-- 新手机加油站 -->
+	<!-- 分类页面导航title每个字块宽  与字大小一样 -->
+	<integer name="app_category_title_textsize">102</integer>
+
+ <!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">720</integer>
+    <integer name="waterfall_detail_content_space">20</integer>
+	
+	
+	<!-- 瀑布流 
+    <integer name="waterwall_first_text_size">80</integer>
+    <integer name="waterwall_text_item_01_height">376</integer>
+    <integer name="waterwall_text_item_02_height">568</integer>
+    <integer name="waterwall_text_item_03_height">548</integer>
+    <integer name="waterwall_img_item_extra_gap">160</integer>
+    <integer name="waterwall_item_width">366</integer>
+    <integer name="waterwall_banner_width">766</integer> -->
+
+
+<integer name="waterfall_audio_title_height">88</integer>
+    <integer name="waterfall_audio_img_height">600</integer>
+</resources>

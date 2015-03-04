@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/waterfall_audio_ad_img_ly"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/waterfall_newsdetail_audio_img_height"
+                android:background="@color/black" >
+
+                <ImageView
+                    android:id="@+id/waterfall_audio_ad_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:layout_width="@dimen/waterfall_newsdetail_audio_icon_height"
+                    android:layout_height="@dimen/waterfall_newsdetail_audio_icon_height"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/wf_audio_ad_icon" />
+
+                <TextView
+                    android:id="@+id/waterfall_audio_ad_title_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/waterfall_newsdetail_audio_title_height"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/transparent_black"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:paddingRight="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/waterfall_newsdetail_audio_title_size" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/waterfall_audio_ad_img_ly" >
+
+                <TextView
+                    android:id="@+id/waterfall_audio_ad_summery_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/waterfall_newsdetail_audio_title_height"
+                    android:background="@color/waterwall_audio_summery_txt_bg"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:paddingRight="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:singleLine="true"
+                    android:text="视频介绍:"
+                    android:textColor="@color/comment_username_day"
+                    android:textSize="@dimen/waterfall_newsdetail_audio_summery_size" />
+
+                <TextView
+                    android:id="@+id/waterfall_audio_ad_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/waterfall_audio_ad_summery_tv"
+                    android:paddingLeft="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:paddingRight="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:paddingTop="@dimen/waterfall_newsdetail_audio_txt_paddingleft"
+                    android:textColor="@color/comment_username_day"
+                    android:textSize="@dimen/waterfall_newsdetail_audio_content_size" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/waterfall_audio_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:src="@drawable/tcl_newsdetail_back" />
+
+</RelativeLayout>

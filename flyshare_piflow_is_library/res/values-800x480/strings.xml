@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字符串 -->
+    <string name="chanel_set_name">频道设置</string>
+	<string name="community">飞享社区</string>
+	<string name="comment">评论</string>
+	<string name="feimee_men">飞米们</string>
+	<string name="me_and_miyou">我和秘友</string>
+	<string name="service_area">服务区</string>
+	<string name="new_informations">新消息</string>
+	<string name="hot_comment">热门评论</string>
+	<string name="miyou_comment">秘友评论</string>
+	<string name="my_comment">我的评论</string>
+	<string name="my_collect">我的收藏</string>
+	<string name="more_feimess">更多飞米</string>
+	<string name="my_miyou">我的秘友</string>
+	<string name="confirm_exit">确定要退出程序？</string>
+	<string name="create_quick">创建桌面快捷键</string>
+	<string name="history">历史记录</string>
+	<string name="news">新闻联播</string>
+	<string name="special">专题</string>
+	<string name="loading_msgcontent">文章读取中…</string>
+	<string name="loading_content">数据读取中,请稍后...</string>
+	
+	<!-- 整数 -->
+	<!-- 更多选项每一项高度 -->
+	<string name="more_popupwindow_item_height">63</string>
+	
+	<!-- 频道设置页面更多选项用到的参数 -->
+	<string name="channel_set_more_popupwindow_width">310</string>
+    <string name="channel_set_more_popupwindow_height">266</string>
+    <string name="channel_set_more_popupwindow_showatlocation_x">85</string>
+    <string name="channel_set_more_popupwindow_showatlocation_y">70</string>
+    
+    <!-- 资讯主页面更多选项用到的参数 -->
+    <string name="news_main_more_popupwindow_width">310</string>
+    <string name="news_main_more_popupwindow_height">200</string>
+    <string name="news_main_more_popupwindow_showatlocation_x">85</string>
+    <string name="news_main_more_popupwindow_showatlocation_y">70</string>
+    
+    <!-- 资讯详细页面更多选项用到的参数 -->
+    <string name="news_common_more_popupwindow_width">310</string>
+    <string name="news_common_more_popupwindow_height">130</string>
+    <string name="news_common_more_popupwindow_showatlocation_x">85</string>
+    <string name="news_common_more_popupwindow_showatlocation_y">72</string>
+    
+    <!-- 历史记录页面更多选项用到的参数 -->
+    <string name="news_history_more_popupwindow_width">310</string>
+    <string name="news_history_more_popupwindow_height">65</string>
+    <string name="news_history_more_popupwindow_showatlocation_x">85</string>
+    <string name="news_history_more_popupwindow_showatlocation_y">70</string>
+    
+    <!-- 黄历页面更多选项用到的参数 -->
+    <string name="calendar_more_popupwindow_width">310</string>
+    <string name="calendar_more_popupwindow_height">65</string>
+    <string name="calendar_more_popupwindow_showatlocation_x">85</string>
+    <string name="calendar_more_popupwindow_showatlocation_y">70</string>
+    
+     <!-- 天气页面更多选项用到的参数 -->
+    <string name="weather_more_popupwindow_width">220</string>
+    <string name="weather_more_popupwindow_height">65</string>
+    <string name="weather_more_popupwindow_showatlocation_x">230</string>
+    <string name="weather_more_popupwindow_showatlocation_y">70</string>
+    <!-- 天气页面长按城市弹窗用到的参数 -->
+    <string name="weather_mycity_popupwindow_width">480</string>
+    <string name="weather_mycity_popupwindow_height">162</string>
+    
+     <!-- 适配WP8主界面各种尺寸资源 -->
+	<string name="modular_margin_top">50</string>
+	<string name="modular_margin_left">24</string>
+	<string name="modular_distance">12</string>
+	<string name="modular_large_width">210</string>
+	<string name="modular_large_height">210</string>
+	<string name="modular_normal_width">210</string>
+	<string name="modular_normal_height">99</string>
+	<string name="modular_small_width">99</string>
+	<string name="modular_small_height">99</string>
+	<string name="modular_last_y">1604</string>
+	
+	<!-- 适配手机加油站应用详情的图片显示 -->
+	<string name="appstore_detail_gridview_width">170</string>
+	<string name="appstore_detail_gridview_padding">15</string>
+	<string name="appstore_detail_gridview_marge">55</string>
+
+</resources>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_item_02_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/waterwall_gap"
+    android:background="#252525"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/waterwall_text_item02_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#50ffffff" />
+
+        <TextView
+            android:id="@+id/waterwall_text_item02_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/waterwall_text_item02_title_height"
+            android:layout_marginBottom="@dimen/waterwall_text_item02_title_marginbottom"
+            android:layout_marginTop="@dimen/waterwall_text_item02_title_margintop"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="@dimen/waterwall_text_item02_title_lineSpacingExtra"
+            android:maxLines="3"
+            android:paddingLeft="@dimen/waterwall_text_item_tv_marginleft_right"
+            android:paddingRight="@dimen/waterwall_text_item_tv_marginleft_right"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/waterwall_text_item02_title_size" />
+
+        <TextView
+            android:id="@+id/waterwall_text_item02_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/waterwall_text_item02_content_height"
+            android:layout_marginBottom="@dimen/waterwall_text_item02_content_marginbottom"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="6"
+            android:paddingLeft="@dimen/waterwall_text_item_tv_marginleft_right"
+            android:paddingRight="@dimen/waterwall_text_item_tv_marginleft_right"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/waterwall_text_item02_content_size" />
+
+        <TextView
+            android:id="@+id/waterwall_text_item02_tv_source_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/waterwall_time_and_source_text_linespacingextra"
+            android:textColor="#a3FFFFFF"
+            android:textSize="@dimen/waterwall_time_and_source_textsize" />
+    </LinearLayout>
+
+    <!--
+       <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wpd_waterwall_item_praise_chat" />
+    -->
+
+</LinearLayout>

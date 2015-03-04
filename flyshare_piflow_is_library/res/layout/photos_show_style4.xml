@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView01"
+        android:layout_width="@dimen/photos_show_small_width"
+        android:layout_height="@dimen/photos_show_small_height"
+        android:layout_marginTop="@dimen/photos_show_top"
+        android:background="@drawable/regist_acount_line"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/photos_show_randomcolor_TextView"
+        android:layout_width="@dimen/photos_show_big_width"
+        android:layout_height="@dimen/photos_show_small_height"
+        android:layout_marginLeft="@dimen/photos_show_gap"
+        android:layout_marginTop="@dimen/photos_show_top"
+        android:layout_toRightOf="@+id/photos_show_ImageView01"
+        android:background="#008a00"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/photos_show_randomcolor_TextView_size" />
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView02"
+        android:layout_width="@dimen/photos_show_small_width"
+        android:layout_height="@dimen/photos_show_small_height"
+        android:layout_below="@+id/photos_show_ImageView01"
+        android:layout_marginTop="@dimen/photos_show_gap"
+        android:background="@drawable/regist_acount_line"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView03"
+        android:layout_width="@dimen/photos_show_small_width"
+        android:layout_height="@dimen/photos_show_small_height"
+        android:layout_below="@+id/photos_show_ImageView02"
+        android:layout_marginTop="@dimen/photos_show_gap"
+        android:background="@drawable/regist_acount_line"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView04"
+        android:layout_width="@dimen/photos_show_big_width"
+        android:layout_height="@dimen/photos_show_big_height"
+        android:layout_below="@+id/photos_show_randomcolor_TextView"
+        android:layout_marginLeft="@dimen/photos_show_gap"
+        android:layout_marginRight="@dimen/photos_show_gap"
+        android:layout_marginTop="@dimen/photos_show_gap"
+        android:background="@drawable/regist_acount_line"
+        android:layout_toRightOf="@+id/photos_show_ImageView02"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView05"
+        android:layout_width="@dimen/photos_show_big_width"
+        android:layout_height="@dimen/photos_show_big_height"
+        android:layout_below="@+id/photos_show_ImageView03"
+        android:layout_marginRight="@dimen/photos_show_gap"
+        android:layout_marginTop="@dimen/photos_show_gap"
+        android:background="@drawable/regist_acount_line"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView06"
+        android:layout_width="@dimen/photos_show_small_width"
+        android:layout_height="@dimen/photos_show_small_height"
+        android:layout_below="@+id/photos_show_ImageView04"
+        android:background="@drawable/regist_acount_line"
+        android:layout_marginTop="@dimen/photos_show_gap"
+        android:layout_toRightOf="@+id/photos_show_ImageView05"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/photos_show_ImageView07"
+        android:layout_width="@dimen/photos_show_small_width"
+        android:layout_height="@dimen/photos_show_small_height"
+        android:layout_below="@+id/photos_show_ImageView06"
+        android:layout_marginTop="@dimen/photos_show_gap"
+        android:background="@drawable/regist_acount_line"
+        android:layout_toRightOf="@+id/photos_show_ImageView05"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/photos_show_pagesize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/photos_show_ImageView07"
+        android:layout_below="@+id/photos_show_ImageView07"
+        android:layout_marginTop="@dimen/photos_show_pageshow_top"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="@dimen/photos_show_pageshow_textsize" />
+
+    <TextView
+        android:id="@+id/photos_show_tmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/photos_show_pagesize"
+        android:layout_toLeftOf="@+id/photos_show_pagesize"
+        android:text="/"
+        android:textColor="@color/white"
+        android:textSize="@dimen/photos_show_pageshow_textsize" />
+
+    <TextView
+        android:id="@+id/photos_show_page_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/photos_show_tmp"
+        android:layout_toLeftOf="@+id/photos_show_tmp"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/photos_show_pageshow_textsize" />
+
+</RelativeLayout>

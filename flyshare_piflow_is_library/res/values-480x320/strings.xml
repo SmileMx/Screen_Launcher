@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 整数 -->
+	<!-- 更多选项每一项高度 -->
+	<string name="more_popupwindow_item_height">63</string>
+	
+	 <!-- 频道设置页面更多选项用到的参数 -->
+    <string name="channel_set_more_popupwindow_width">180</string>
+    <string name="channel_set_more_popupwindow_height">180</string>
+    <string name="channel_set_more_popupwindow_showatlocation_x">70</string>
+    <string name="channel_set_more_popupwindow_showatlocation_y">39</string>
+
+    <!-- 资讯主页面更多选项用到的参数 -->
+    <string name="news_main_more_popupwindow_width">180</string>
+    <string name="news_main_more_popupwindow_height">140</string>
+    <string name="news_main_more_popupwindow_showatlocation_x">70</string>
+    <string name="news_main_more_popupwindow_showatlocation_y">39</string>
+
+    <!-- 资讯详细页面更多选项用到的参数 -->
+    <string name="news_common_more_popupwindow_width">180</string>
+    <string name="news_common_more_popupwindow_height">95</string>
+    <string name="news_common_more_popupwindow_showatlocation_x">70</string>
+    <string name="news_common_more_popupwindow_showatlocation_y">40</string>
+
+    <!-- 历史记录页面更多选项用到的参数 -->
+    <string name="news_history_more_popupwindow_width">180</string>
+    <string name="news_history_more_popupwindow_height">45</string>
+    <string name="news_history_more_popupwindow_showatlocation_x">70</string>
+    <string name="news_history_more_popupwindow_showatlocation_y">40</string>
+
+    <!-- 黄历页面更多选项用到的参数 -->
+    <string name="calendar_more_popupwindow_width">180</string>
+    <string name="calendar_more_popupwindow_height">45</string>
+    <string name="calendar_more_popupwindow_showatlocation_x">70</string>
+    <string name="calendar_more_popupwindow_showatlocation_y">40</string>
+
+    <!-- 天气页面更多选项用到的参数 -->
+    <string name="weather_more_popupwindow_width">180</string>
+    <string name="weather_more_popupwindow_height">45</string>
+    <string name="weather_more_popupwindow_showatlocation_x">70</string>
+    <string name="weather_more_popupwindow_showatlocation_y">40</string>
+    <!-- 天气页面长按城市弹窗用到的参数 -->
+    <string name="weather_mycity_popupwindow_width">320</string>
+    <string name="weather_mycity_popupwindow_height">140</string>
+    
+     <!-- 适配WP8主界面各种尺寸资源 -->
+	<string name="modular_margin_top">25</string>
+	<string name="modular_margin_left">15</string>
+	<string name="modular_distance">6</string>
+	<string name="modular_large_width">142</string>
+	<string name="modular_large_height">142</string>
+	<string name="modular_normal_width">142</string>
+	<string name="modular_normal_height">68</string>
+	<string name="modular_small_width">68</string>
+	<string name="modular_small_height">68</string>
+	<string name="modular_last_y">1070</string>
+	
+	<!-- 适配手机加油站应用详情的图片显示 -->
+	<string name="appstore_detail_gridview_width">112</string>
+	<string name="appstore_detail_gridview_padding">10</string>
+	<string name="appstore_detail_gridview_marge">32</string>
+</resources>

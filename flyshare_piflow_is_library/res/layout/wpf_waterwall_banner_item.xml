@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_main_item_horizontal_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/waterwall_gap"
+    android:background="@color/waterwall_img_item_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/waterwall_main_item_horizontal_imgview"
+            android:layout_width="@dimen/waterwall_banner_img_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/waterwall_main_item_horizontal_video"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/waterwall_main_item_title_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/waterwall_banner_title_background" />
+
+        <TextView
+            android:id="@+id/waterwall_main_item_horizontal_title_above"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:layout_marginRight="@dimen/waterwall_text_marginleft_and_right"
+            android:lineSpacingExtra="8dp"
+            android:maxLines="2"
+            android:paddingBottom="13dp"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/waterwall_img_item_textview_size" />
+
+        <TextView
+            android:id="@+id/waterwall_main_item_horizontal_source_above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/waterwall_time_and_source_text_linespacingextra"
+            android:maxLines="1"
+            android:textColor="#a3FFFFFF"
+            android:textSize="@dimen/waterwall_time_and_source_textsize" />
+    </RelativeLayout>
+
+</LinearLayout>

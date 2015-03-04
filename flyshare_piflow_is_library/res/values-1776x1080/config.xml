@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="menu_popupwindow_height">160</integer>
+	<integer name="menu_popupwindow_tts_setting_height">480</integer>
+	<integer name="comment_userimgs_margin">10</integer>
+	<integer name="newsmain_push_anim_duration">500</integer>
+	<integer name="account_headimg_width_height">188</integer>
+	<integer name="account_headimg_bg_width">800</integer>
+	<integer name="account_headimg_bg_height">600</integer>
+	<integer name="account_headimg_bg_width_scale">4</integer>
+	<integer name="account_headimg_bg_height_sacle">3</integer>
+	<!-- 举报对话框的宽 -->
+    <integer name="comment_report_dialog_width">800</integer>
+     <!-- 评论、分享、收藏小图标大小 -->
+    <integer name="comment_icon_size">90</integer>
+	<!-- 主界面用到的 -->
+    <integer name="main_modular_width">250</integer>
+    <integer name="main_modular_distance">13</integer>
+    <integer name="main_modular_iconleft">110</integer>
+    <integer name="main_channelname_left">10</integer>
+    <integer name="main_channelname_top">405</integer>
+    <integer name="main_showword_top">350</integer>
+      <integer name="main_del_left">25</integer>
+    <integer name="main_del_right">50</integer>
+    
+    <!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">976</integer>
+     <integer name="waterfall_detail_content_space">30</integer>
+     
+     <integer name="waterfall_audio_title_height">118</integer>
+    <integer name="waterfall_audio_img_height">810</integer>
+</resources>

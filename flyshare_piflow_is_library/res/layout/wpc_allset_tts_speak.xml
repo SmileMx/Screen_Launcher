@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allset_toplayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/allset_item_selector"
+    android:clickable="true"
+    android:focusable="true" >
+
+    <ImageView
+        android:id="@+id/allset_Img_iconimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/allset_icon_margintop"
+        android:src="@drawable/allset_tts" />
+
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/allset_Img_iconimg"
+        android:text="TTS语音引擎"
+        android:textColor="#f3f3f3"
+        android:textSize="@dimen/allset_toptitle" />
+
+    <TextView
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@android:id/title"
+        android:layout_below="@android:id/title"
+        android:layout_marginTop="7dp"
+        android:text="当前语音引擎:"
+        android:textColor="#b9b9b9"
+        android:textSize="@dimen/allset_summary" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@android:id/summary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/allset_Img_iconimg"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/allset_jiantou" />
+
+</RelativeLayout>

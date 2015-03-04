@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_the_img_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/waterwall_img_item_background"
+     >
+
+    <ImageView
+        android:id="@+id/waterwall_the_img_item_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/waterwall_banner_title_background" />
+
+    <ImageView
+        android:id="@+id/waterwall_the_img_item_video"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/waterwall_the_img_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/waterwall_the_img_item_source"
+        android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+        android:layout_marginRight="@dimen/waterwall_text_marginleft_and_right"
+        android:ellipsize="end"
+        android:lineSpacingExtra="12px"
+        android:paddingBottom="0px"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/waterwall_img_item_textview_size" />
+
+    <TextView
+        android:id="@+id/waterwall_the_img_item_source"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+        android:ellipsize="end"
+        android:lineSpacingExtra="@dimen/waterwall_time_and_source_text_linespacingextra"
+        android:textColor="#a3FFFFFF"
+        android:textSize="@dimen/waterwall_time_and_source_textsize" />
+
+</RelativeLayout>

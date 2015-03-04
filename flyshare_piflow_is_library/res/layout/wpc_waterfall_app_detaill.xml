@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" 
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/waterfall_appdetail_title_ly"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/waterfall_appdetail_title_layout_height"
+                android:background="@drawable/waterfall_appdetail_title_bg" >
+
+                <ImageView
+                    android:id="@+id/waterfall_appdetail_icon"
+                    android:layout_width="@dimen/waterfall_appdetail_icon"
+                    android:layout_height="@dimen/waterfall_appdetail_icon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin" />
+
+                <TextView
+                    android:id="@+id/waterfall_appdetail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/waterfall_appdetail_icon"
+                    android:layout_marginLeft="4.67dp"
+                    android:layout_toRightOf="@+id/waterfall_appdetail_icon"
+                    android:text="网易新闻"
+                    android:textColor="@color/deep_black"
+                    android:textSize="@dimen/waterfall_appdetail_title_txtsize" />
+
+                <TextView
+                    android:id="@+id/waterfall_appdetail_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/waterfall_appdetail_icon"
+                    android:layout_alignLeft="@+id/waterfall_appdetail_title"
+                    android:text="下载:76543"
+                    android:textSize="@dimen/waterfall_appdetail_summery_txtsize" />
+
+                <TextView
+                    android:id="@+id/waterfall_appdetail_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/waterfall_appdetail_num"
+                    android:layout_alignBottom="@+id/waterfall_appdetail_num"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:text="大小:4.5M"
+                    android:textSize="@dimen/waterfall_appdetail_summery_txtsize" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/waterfall_appdetail_title_ly"
+                android:background="@color/white" >
+
+                <TextView
+                    android:id="@+id/waterfall_appdetail_imgtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_intro_margin"
+                    android:text="应用截图"
+                    android:textColor="@color/deep_black"
+                    android:textSize="@dimen/waterfall_appdetail_intro_txtsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.3dp"
+                    android:layout_marginLeft="8.6dp"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_line_margin"
+                    android:layout_toRightOf="@+id/waterfall_appdetail_imgtv"
+                    android:background="@color/day_line" />
+
+                <LinearLayout
+                    android:id="@+id/waterfall_appdetail_img_ly"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/waterfall_appdetail_img_layout_height"
+                    android:layout_below="@+id/waterfall_appdetail_imgtv"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_intro_margin"
+                    android:background="@drawable/waterfall_appdetail_imgs_bg" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/waterfall_appdetail_intro_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/waterfall_appdetail_img_ly"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_intro_margin"
+                    android:text="应用简介"
+                    android:textColor="@color/deep_black"
+                    android:textSize="@dimen/waterfall_appdetail_intro_txtsize" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.3dp"
+                    android:layout_below="@+id/waterfall_appdetail_img_ly"
+                    android:layout_marginLeft="8.6dp"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_line_margin"
+                    android:layout_toRightOf="@+id/waterfall_appdetail_intro_tv"
+                    android:background="@color/day_line" />
+
+                <TextView
+                    android:id="@+id/waterfall_appdetail_content_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/waterfall_appdetail_intro_tv"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_intro_margin"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:text="应用简介下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻下载网易新闻"
+                    android:textColor="@color/deep_black"
+                    android:lineSpacingExtra="@dimen/app_detail_intro_margintop"
+                    android:textSize="@dimen/waterfall_appdetail_intro_content_txtsize" 
+/>
+                <View android:layout_width="match_parent"
+                    android:layout_height="@dimen/waterfall_appdetail_download_layout_height"
+                    android:layout_below="@+id/waterfall_appdetail_content_tv"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/waterfall_appdetail_download_layout_height"
+        android:layout_gravity="bottom"
+        android:background="@color/deep_white" >
+
+        <ProgressBar
+            android:id="@+id/waterfall_appdetail_download_pb"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/waterfall_appdetail_download_progressbar_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+            android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+            android:progressDrawable="@drawable/waterfall_downapp_progressbar_style" />
+
+        <RelativeLayout
+            android:id="@+id/waterfall_appdetail_download_ly"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/waterfall_appdetail_download_progressbar_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+            android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+            android:background="@drawable/waterfall_downapp_item_selector"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/waterfall_appdetail_download_icon"
+                android:layout_width="@dimen/waterfall_appdetail_download_icon"
+                android:layout_height="@dimen/waterfall_appdetail_download_icon"
+                android:src="@drawable/allset_download" />
+
+           <TextView
+                android:id="@+id/waterfall_appdetail_download_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/waterfall_appdetail_download_icon"
+                android:textColor="@color/deep_white"
+                android:textSize="@dimen/waterfall_appdetail_intro_txtsize"
+                android:text="下载网易新闻" />
+           
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

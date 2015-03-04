@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/news_details_touchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/news_detail_top_line_ImageView"
+                android:layout_width="fill_parent"
+                android:layout_height="3.3dp"
+                android:background="#0099ff" />
+
+            <RelativeLayout
+                android:id="@+id/news_datail_type_title_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_top_line_ImageView" >
+
+                <TextView
+                    android:id="@+id/news_datail_type_from_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="6.6dp"
+                    android:text="News"
+                    android:textColor="#666666"
+                    android:textSize="@dimen/news_detail_source_textsize" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/news_detail_ads_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_content_lv"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/news_detail_original_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:background="@drawable/wf_news_orighinal_btn_selector"
+                    android:paddingBottom="6.7dp"
+                    android:paddingTop="6.7dp"
+                    android:text="开启原文"
+                    android:textColor="#989898"
+                    android:textSize="@dimen/news_detail_bigtype_textsize"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/news_detail_ads"
+                    layout="@layout/wpc_waterfall_newsdetail_soft_ads"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/news_detail_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_datail_type_title_RelativeLayout"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/news_datail_head"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/news_datail_title_TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="13.3dp"
+                        android:paddingLeft="13.3dp"
+                        android:paddingRight="13.3dp"
+                        android:text="女子200米个人混合泳 叶诗文摘奥运第二金"
+                        android:textColor="#000000"
+                         android:textStyle="bold"
+                        android:textSize="@dimen/news_detail_title_textsize" />
+
+                    <ImageView
+                        android:id="@+id/news_detail_title_bottom_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.7dp"
+                        android:layout_below="@+id/news_datail_title_TextView"
+                        android:background="@color/littleline" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/news_detail_middle_RelativeLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="13.3dp"
+                    android:paddingRight="13.3dp" >
+
+                    <TextView
+                        android:id="@+id/news_detail_time_TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/content_operate_layout"
+                        android:layout_marginBottom="13.3dp"
+                        android:layout_marginTop="13.3dp"
+                        android:text="2012年08月01日  03:53"
+                        android:textColor="@color/littleline"
+                        android:textSize="@dimen/news_detail_time_textsize" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>

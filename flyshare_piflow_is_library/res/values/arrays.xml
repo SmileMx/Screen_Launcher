@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="interaction_feedback">
+        <item>我们会尽快给予答复，谢谢！</item>
+        <item>我们将给您满意的答复！</item>
+        <item>请稍等，尽快给您解决问题！</item>
+        <item>您的信息已收到，我们会尽快回复您!</item>
+        <item>抱歉，让您久等了，我们会尽快帮您解决问题！</item>
+        <item>您好，我是5号客服，很高兴为您服务！</item>
+        <item>让您久等了，我们会尽快为您解决问题！</item>
+        <item>您好,您反应的问题我们已提交相关的工作人员，请稍等！
+            
+        </item>
+        
+    </string-array>
+    
+</resources>

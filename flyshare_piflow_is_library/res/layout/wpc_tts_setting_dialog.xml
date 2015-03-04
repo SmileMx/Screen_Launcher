@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="233dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/tts_spaeking_asking_dialog_width"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_top_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/DialogText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/acount_alter_change_img_dialog_bottom"
+                android:paddingLeft="@dimen/acount_alter_change_img_dialog_top_or_left"
+                android:paddingTop="@dimen/acount_alter_change_img_dialog_top_or_left"
+                android:text="TTS朗读设置"
+                android:textSize="@dimen/acount_alter_change_img_dialog_title_textsize" 
+                android:layout_alignParentLeft="true"/>
+            <ImageButton 
+                android:id="@+id/tts_setting"
+                android:layout_width="@dimen/acount_alter_change_img_dialog_margin_left_or_right"
+                android:layout_height="@dimen/acount_alter_change_img_dialog_margin_left_or_right"
+                android:layout_alignParentRight="true"                
+                android:background="@drawable/btn_tts_seeting"
+                android:layout_marginRight="@dimen/acount_alter_change_img_dialog_top_or_left"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#33b5e5" />
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_vertical"
+             android:paddingTop="20dp"
+             android:paddingBottom="20dp">
+            
+             <CheckBox
+            android:id="@+id/tts_nomore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/acount_alter_change_img_dialog_top_or_left"
+            android:gravity="center_vertical"
+            android:background="@drawable/channel_set_item_checkbox_selector"
+            android:button="@null"
+            
+            />
+             <TextView 
+                 android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tts_nomore"
+            android:text="以后不再询问" 
+            android:textSize="@dimen/allset_summary"
+            android:layout_alignBaseline="@+id/tts_nomore"/>
+        </RelativeLayout>
+           
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/tts_spaeking_asking_dialog_width"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/positiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_left_bg_xml"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dialog_report_item_button_textsize"
+            android:text="开始朗读" />
+
+    </LinearLayout>
+
+</LinearLayout>

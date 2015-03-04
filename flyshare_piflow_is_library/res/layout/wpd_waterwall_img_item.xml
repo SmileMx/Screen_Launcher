@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_img_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/waterwall_gap"
+    android:background="@color/waterwall_img_item_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/waterwall_img_item_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/waterwall_img_item_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/waterwall_img_item_title_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/waterwall_banner_title_background" />
+
+        <ImageView
+            android:id="@+id/waterwall_img_item_video"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/water_video_icon"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/waterwall_img_item_title_above"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/waterwall_img_item_source_above"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:layout_marginRight="@dimen/waterwall_text_marginleft_and_right"
+            android:ellipsize="end"
+            android:lineSpacingExtra="12px"
+            android:maxLines="2"
+            android:paddingBottom="0px"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/waterwall_img_item_textview_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/waterwall_img_item_source_above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/waterwall_time_and_source_text_linespacingextra"
+            android:maxLines="1"
+            android:textColor="#a3FFFFFF"
+            android:textSize="@dimen/waterwall_time_and_source_textsize"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/waterwall_img_item_title_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/waterwall_img_item_title_background"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/waterwall_img_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/waterwall_img_item_textview_height"
+            android:layout_marginBottom="@dimen/waterwall_img_item_textview_marginbottom"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:layout_marginRight="@dimen/waterwall_text_marginleft_and_right"
+            android:layout_marginTop="@dimen/waterwall_img_item_textview_margintop"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="12px"
+            android:maxLines="2"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/waterwall_img_item_textview_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/waterwall_img_item_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/waterwall_text_marginleft_and_right"
+            android:ellipsize="end"
+            android:lineSpacingExtra="@dimen/waterwall_time_and_source_text_linespacingextra"
+            android:maxLines="1"
+            android:textColor="#a3FFFFFF"
+            android:textSize="@dimen/waterwall_time_and_source_textsize"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!--
+         <include 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/wpd_waterwall_item_praise_chat"/>
+    -->
+
+</LinearLayout>

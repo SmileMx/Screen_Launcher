@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#20ffffff"
+    android:minWidth="270dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/DialogText.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="17dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="提示" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#33b5e5" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/download_dialog_titletv"
+            style="@style/DialogText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="14dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="10dp"
+            android:text="确定要退出程序？" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/download_dialog_confirmbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_left_bg_xml"
+            android:singleLine="true"
+            android:text="立即下载"
+            android:textColor="@color/white" 
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/download_dialog_canclebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_right_bg_xml"
+            android:singleLine="true"
+            android:text="稍后再说"
+            android:textColor="@color/white"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+</LinearLayout>

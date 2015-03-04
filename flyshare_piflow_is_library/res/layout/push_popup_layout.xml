@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#90000000"
+    android:id="@+id/layout"
+    >
+   
+    <ImageView 
+        android:id="@+id/push_popup_iv"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="12dp"
+        />
+	
+        
+    <TextView 
+        android:id="@+id/push_popup_tv"
+       android:layout_width="match_parent"
+      	android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/push_popup_iv"
+      	android:layout_alignBottom="@+id/push_popup_iv"
+      	android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/app_name" />
+    
+</RelativeLayout>

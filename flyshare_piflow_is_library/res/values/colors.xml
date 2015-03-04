@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#5a000000</color>
+    <color name="transparent_deep">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="deep_black">#000000</color>
+    <color name="deep_white">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="welcome_pro_sec">#80d06464</color>
+    <color name="bottom">#2c2a2b</color>
+    <color name="dialog_bg_color">#f6f9cc</color>
+    <color name="bluesky">#2181cb</color>
+    <color name="littleyellow">#e9c21f</color>
+    <color name="littleorange">#f1671e</color>
+    <color name="meitushoworange">#ecad00</color>
+    <color name="meitushowgreen">#008a00</color>
+    <color name="meitushowblue">#019dda</color>
+    <color name="transparent_blue">#277592</color>
+    <color name="orange">#ffb800</color>
+    <!-- 资讯详细透明栏使用的颜色值 -->
+     <color name="transparent_white">#e5ffffff</color>
+     <color name="transparent_black">#d5151515</color>
+      <!-- 资讯详细字体设置及日夜模式-->
+     <color name="alltransparent_white">#aa808080</color>
+     <color name="alltransparent_black">#aa000000</color>
+     <color name="black_bg">#151515</color>
+     <color name="black_notread">#4a4a4a</color>
+     <color name="black_hasread">#2a2a2a</color>
+     <color name="day_line">#cccccc</color>
+     <color name="night_line">#232323</color>
+     <color name="night_source">#646464</color>
+
+    <!-- 资讯使用到的颜色 -->
+    <color name="littletext">#8b8b8b</color>
+    <color name="littleline">#808080</color>
+    <color name="bottombar">#ee292929</color>
+    <color name="titlepiece">#019dda</color>
+
+    <!-- 主界面底色 -->
+    <color name="main_bg">#19a2de</color>
+
+    <!-- 资讯默认底色5个 -->
+    <color name="n_orange">#ff9933</color>
+    <color name="n_blue">#0099ff</color>
+    <color name="n_green">#008a00</color>
+    <color name="n_purple">#95519e</color>
+    <color name="n_skygreen">#5fcdca</color>
+
+    <!-- 资讯详细页面用到的颜色 -->
+    <color name="news_detail_orange">#ff9933</color>
+    <color name="news_detail_blue">#0099ff</color>
+    <color name="news_detail_green">#008a00</color>
+    <color name="news_detail_purple">#95519e</color>
+    <color name="news_detail_skyblue">#5fcdca</color>
+    
+    <!-- 资讯评论使用到得颜色 -->
+    <color name="comment_headimg_background_day">#efefef</color>
+     <color name="comment_headimg_background_night">#2b2b2b</color>
+     <color name="comment_username_day">#333333</color>
+     <color name="comment_content_day">#313031</color>
+     <color name="comment_time_day">#8b8b8b</color>
+     <color name="comment_username_night">#b6b6b6</color>
+     <color name="comment_content_night">#898989</color>
+     <color name="comment_time_night">#514f4f</color>
+     <color name="comment_head_day">#f1f1f1</color>
+     <color name="comment_listivew_divider_night">#232323</color>
+
+    <!-- 历史记录页面用到的颜色 -->
+    <color name="news_history_title_background_blue">#019dda</color>
+    <color name="news_history_title_right_textcolor">#666666</color>
+    <color name="news_history_item_little_textcolor">#8b8b8b</color>
+    <color name="news_history_item_gap_color">#cdcdcd</color>
+
+    <!-- 第三方服务区 -->
+    <color name="title_unfocus">#898989</color>
+    <color name="weather_mycity_item_green">#008a00</color>
+    <color name="weather_mycity_item_blue">#0099ff</color>
+    <color name="app_type_title_unchecked">#330000</color>
+
+    <!-- 皮肤颜色 具体看规范 -->
+    <color name="skin_01">#319a31</color>
+    <color name="skin_02">#ff0094</color>
+    <color name="skin_03">#a500ff</color>
+    
+    <!-- 无 -->
+    <color name="skin_04">#191852</color>
+    
+    <color name="skin_05">#8cbe29</color>
+    <color name="skin_06">#9c5100</color>
+    <color name="skin_07">#e671b5</color>
+    <color name="skin_08">#ef9608</color>
+    <color name="skin_09">#19a2de</color>
+    
+    <!-- 无 -->
+    <color name="skin_10">#e61400</color>
+    
+    <color name="skin_11">#dece00</color>
+    
+    <!-- 无 -->
+    <color name="skin_12">#0024ff</color>
+    <color name="skin_13">#6b1419</color>
+    
+    <color name="skin_14">#b5004a</color>
+    
+    <!-- 无 -->
+    <color name="skin_15">#525152</color>
+    
+    <color name="skin_16">#00aaad</color>
+    <color name="skin_17">#52c600</color>
+    <color name="skin_18">#42088c</color>
+    
+    <!-- 无 -->
+    <color name="skin_19">#29517b</color>
+    
+    <color name="skin_20">#840400</color>
+    
+    
+    <!-- 手机加油站 -->
+    <color name="grid_item">#267593</color>
+     <color name="marrow_item_bg">#e5242424</color>
+    
+    <!-- widget 桌面小窗口4x4以及4x2日期部分-->
+    <color name="appStoredata">#7fffffff</color>
+    
+    <!-- popupMenu的底线颜色蓝色 -->
+    <color name="popubackgroud">#191919</color>
+    <color name="popubackgroud_o">#00131a</color>
+    <color name="popuMenuview">#33b5e5</color>
+    <color name="popuSetTextView">#141414</color>
+    <color name="popuNumColor">#999999</color>
+    
+    <!-- 账号登陆用到的颜色 -->
+    <color name="dblue">#2ba4e6</color>
+    <color name="dblueo">#267593</color>
+    <color name="dhuise">#d4d4d4</color>
+    <color name="loginbg">#f6f8f9</color>
+
+    <color name="alertinfoside">#e2e5e8</color>
+    
+    <!-- 手机加油站分类title -->
+    <color name="appcategorytitle">#666666</color>
+    <!-- 手机加油站搜索框字颜色 -->
+    <color name="app_search_et_color">#020302</color>
+    
+    
+    <!-- 瀑布流推广应用progressbar颜色 -->
+    <color name="waterfall_down_app_progress_bg">#22ae14</color>
+    <color name="waterfall_down_app_progress">#1b982c</color>
+    
+    
+    <!-- 瀑布流主界面item背景颜色组 -->
+    <color name="waterwall_item_bg_color_01">#29517b</color>    
+    <color name="waterwall_item_bg_color_02">#191852</color>   
+    <color name="waterwall_item_bg_color_03">#42088c</color>    
+    <color name="waterwall_item_bg_color_04">#00aaad</color> 
+    <color name="waterwall_item_bg_color_05">#252525</color>
+    
+    <color name="waterwall_sb_item_background_color">#252525</color>
+    
+    <!-- 瀑布流视频、音频、阅读广告颜色 -->
+     <color name="waterwall_audio_summery_txt_bg">#eff0f0f0</color>
+     
+     
+     
+     
+     <!-- 瀑布流颜色设置 -->
+     <!-- 大背景颜色d6e0e2 -->
+     <color name="waterwall_main_background">#00000000</color>
+     <!-- 背景颜色d6e0e2 -->
+     <color name="waterwall_background">#00000000</color>
+     <!-- 图片背景颜色 -->
+     <color name="waterwall_img_item_background">#ffffff</color>
+     <!-- 图片下标题和来源时间的背景颜色 -->
+     <color name="waterwall_img_item_title_background">#3d85d7</color>
+     
+     <color name="waterwall_item_bg_color_tcl_01">#3d85d7</color>
+     <color name="waterwall_item_bg_color_tcl_02">#19a2de</color>
+     <color name="waterwall_item_bg_color_tcl_03">#8cbe29</color>
+     
+     <color name="waterwall_photoshow_img_bg">#00000000</color>
+     
+     <color name="transparent_background">#00ffffff</color>
+</resources>

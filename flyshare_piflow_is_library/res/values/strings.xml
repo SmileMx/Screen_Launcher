@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字符串 -->
+    <string name="app_name">巧克力派</string>
+    <string name="factory_name">中国电信</string>
+    <string name="feimi_version">Ver. 4.2.5.1</string>
+    <string name="feimi_version_name">PIWindow4.2.5.1</string>
+    <string name="nomortData">最后一页了!</string>
+    <string name="server_timed_out">无新数据,请稍候再试!</string>
+    <string name="no_new_data">暂无新资讯,请稍候再试!</string>
+    <string name="server_busy">服务器繁忙，请稍后再试!</string>
+    <string name="net_error">网络异常,请检查!</string>
+    <string name="sending">发送中...</string>
+    <string name="sending_success">发送成功!</string>
+    <string name="sending_fail">发送失败.</string>
+    <string name="acount_cancel">账号已注销</string>
+    <string name="content_null">内容不能为空!</string>
+    <string name="content_repeat">请不要重复发相同的内容！</string>
+    <string name="no_comment">暂无评论</string>
+    <string name="report_content1">涉及黄色、暴力等内容</string>
+    <string name="report_content2">恶意攻击、扰乱公共秩序</string>
+    <string name="report_content3">其他</string>
+    <string name="chanel_set_name">频道设置</string>
+    <string name="interaction_title">与天翼官方对话</string>
+    <string name="community">PIWindow社区</string>
+    <string name="comment">评论</string>
+    <string name="feimee_men">飞米们</string>
+    <string name="me_and_miyou">我和秘友</string>
+    <string name="service_area">服务区</string>
+    <string name="new_informations">新消息</string>
+    <string name="hot_comment">热门评论</string>
+    <string name="miyou_comment">秘友评论</string>
+    <string name="my_comment">我的评论</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="more_feimess">更多飞米</string>
+    <string name="my_miyou">我的秘友</string>
+    <string name="confirm_exit">确定要退出程序？</string>
+    <string name="create_quick">创建桌面快捷键</string>
+    <string name="history">历史记录</string>
+    <string name="news">新闻联播</string>
+    <string name="special">专题</string>
+    <string name="loading_msgcontent">文章读取中…</string>
+    <string name="comment_loading">评论读取中…</string>
+    <string name="request_comment">点击获取评论</string>
+    <string name="request_more">点击加载更多</string>
+    <string name="loading_content">数据读取中,请稍后</string>
+    <string name="are_you_sure_download_app">确定要下载该应用吗？</string>
+    <string name="mobile_serve_name">飞米服务区</string>
+    <string name="appstore_serve_name">手机加油站</string>
+    <string name="mycity">我的城市</string>
+    <string name="addcity">添加城市</string>
+    <string name="search_city_hint">(输入深圳或者shenzhen)</string>
+    <string name="hot_city">热门城市</string>
+    <string name="first_city">首选城市</string>
+    <string name="del_city">删除城市</string>
+    <string name="widget_clock">PIWindow时钟4x2</string>
+    <string name="widget_news">PIWindow新闻4x2</string>
+    <string name="widget_big">PIWindow桌面4x4</string>
+    <string name="widget_">PIWindow桌面</string>
+    <string name="hasnot_network">网络不可用,请检查！</string>
+    <string name="widget_set_news_auto_refresh">自动刷新内容</string>
+    <string name="about_content">"\n      "PIWindow是国内领先的生活服务类资讯聚合和分享软件，以全方位的资讯和生活服务提高您的生活品质。"\n\n      "通过整合各大权威媒体的新闻资源，提供基于RSS的深度个性化定制阅读服务，并通过微博，空间等进行分享互动；聚合最前沿的生活服务信息，提供桌面天气和黄历查询。全方位的专业服务功能，让您的Android手机成为您生活上的得力助手。"
+"\n\n"联系电话：400-6666-380 "\n\n" Powered by FLYSHARE</string>
+    <string name="about_callnum">联系方式（Email或者手机）</string>
+    <string name="about_feedback">反馈内容</string>
+    <string name="about_disclaimer_content">"\n         "PIWindow以非人工方式抓取第三方的RSS链接，您可能从第三方网页上获得资讯和享用服务，PIWindow对其合法性概不负责，亦不承担任何法律责任。
+任何内容源如果不想被PIWindow收录，应该及时向PIWindow反映，否则，PIWindow将继续视该内容源为可收录内容源。
+　　"\n\n       任何单位和个人认为PIWindow收录的第三方内容可能涉嫌侵犯其信息网络传播权，应该及时向PIWindow提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。PIWindow收到上述法律文件后，将会依法尽快去除相关链接内容。</string>
+    <string name="about_privacyrules_content">"\n"总则"\n      ●  "PIWindow（PIWindow）（以下简称“PIWindow”）的所有权和运营仅归深圳英威诺科技有限公司所有。
+"\n      ●  "用户在使用PIWindow的服务之前，应该仔细阅读本政策，并同意遵守本政策后方可成为PIWindow用户。注册成功后，用户与PIWindow之间则自动形成协议关系，用户应当受本协议的约束。
+"\n      ●  "本隐私政策适用于您与PIWindow旗下的所有产品的在线服务。除了在本隐私政策和服务条款以及其他公布的准则的规定的情况下，我们不会公布与用户个人身份有关的资料。请注意PIWindow随时会检查隐私政策，对用户不承担通知义务。用户应当随时关注本政策的修改，并决定是否继续使用本产品提供的各项服务。我们恳请您定期光顾本页以确保对我们隐私政策最新版本始终保持了解。在阅读完本政策之后，如果您对PIWindow的隐私政策有进一步的问题，请与 XXX@PIWindow.com联系。
+"\n\n"遵守法律
+"\n      ●  "您同意遵守中华人民共和国相关当选法规的所有规定，并对以任何方式使用您的账号和您的密码使用本服务的任何行为及其结果承担全部责任。如您的行为违反国家法律和法规的任何规定，有可能构成犯罪的，将被追究刑事责任，并由您承担全部法律责任。
+"\n      ●  "如果PIWindow根据相关语气认为您在使用PIWindow旗下所有产品过程中违反了中华人民共和国相关法律法规的相关规定，包括但不限于您的任何言论和其他行为违反和其他行为违反或可能违</string>
+    <string name="loadfail">加载失败,"\n"请单击重新加载!</string>
+    <string name="reload">加载中,请稍后!</string>
+    <string name="appstore_install">安装</string>
+    <string name="appstore_download">下载</string>
+    <string name="appstore_listview_footer_textview">查看更多</string>
+    <string name="appstore_listview_footer_ready">松开载入更多</string>
+    <string name="appstore_appload_fail">应用加载失败，</string>
+    <string name="appstore_click_refresh">点击屏幕刷新!</string>
+    <string name="calendar_huangli">黄历</string>
+    <string name="calendar_today">今天</string>
+    <string name="calendar_chong">冲煞</string>
+    <string name="calendar_wuxing">五行</string>
+    <string name="calendar_fangwei">方位</string>
+    <string name="calendar_zhushen">诸神</string>
+    <string name="outline_download_waiting">等待中</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="alert_pwd">修改密码</string>
+    <string name="cancle">取消</string>
+    <string name="returnc">返回</string>
+    <string name="save">保存</string>
+    <string name="next">下一步</string>
+    <string name="last">上一步</string>
+    <string name="complete">完成</string>
+    <string name="exit_login">退出登录</string>
+    <string name="login_hint">请输入邮箱/手机号码</string>
+    <string name="login_hint1">请输入原密码</string>
+    <string name="login_hint2">请输入密码</string>
+    <string name="login_hint4">请输入新密码</string>
+    <string name="login_hint3">请再次输入新密码</string>
+    <string name="hint">登录即表示同意PIWindow的用户协议和隐私政策</string>
+    <string name="hint2">注册即表示同意PIWindow的用户协议和隐私政策</string>
+    <string name="hint3">显示密码</string>
+    <string name="hint4">密码为6—13位的数字、字母或组合</string>
+    <string name="share"> [分享自巧克力派]</string>
+    <string name="myfavorite">我的收藏</string>
+    <string name="collection_of_success">收藏成功!</string>
+    <string name="can_not_repeated_collection">不能重复收藏!</string>
+    <string name="no_account">账户不存在</string>
+    <string name="wrong_password">账户密码不匹配</string>
+    <string name="replay_edit_hint">请输入内容！</string>
+    <string name="reply">回复</string>
+    <string name="reply_or_report_send_success">提交成功！</string>
+    <string name="reply_or_report_send_fail">提交失败！</string>
+    <string name="appstore_category">分类</string>
+    <string name="appstore_search">搜索</string>
+    <string name="appstore_search_result_none">没有搜索结果</string>
+    <string name="lottery_draw_title">活动主题</string>
+    <string name="lottery_draw_checking_title">手机验证</string>
+    <string name="lottery_draw_checking_content">请输入您的手机号码进行资格验证并获得免费抽奖机会！</string>
+    <string name="lottery_draw_checking_et">请输入手机号码</string>
+    <string name="lottery_draw_checking_tmp">此号码将用于接收中奖通知</string>
+    <string name="lottery_draw_checking_btn">验证</string>
+    <string name="lottery_draw_marquee">恭喜手机号码为135xxxx1212的用户抽中一等奖，价值2000元的智能手机一部</string>
+    <string name="lottery_draw_win_bottom">请在"新消息"中查看中奖详细</string>
+    <string name="lottery_draw_prize_way">"\n      "领取方式:"\n             "</string>
+    <string name="call_factory">是否致电中国电信?</string>
+    <string name="down_loading_egine_content">朗读功能需要语音引擎,"\n"请点击确认按钮安装(大小9M)。</string>
+    <string name="widget_default_title">新闻、报刊、杂志，随时随地，轻松阅读</string>
+
+    <!-- 主界面使用的key -->
+    <string name="key_small">key_small</string>
+    <string name="key_normal">key_normal</string>
+    <string name="key_larger">key_larger</string>
+    <string name="key_other">key_other</string>
+    <string name="key_big">key_big</string>
+
+    <!-- 整数 -->
+    <!-- 更多选项每一项高度 -->
+    <string name="more_popupwindow_item_height">63</string>
+
+    <!-- 频道设置页面更多选项用到的参数 -->
+    <string name="channel_set_more_popupwindow_width">220</string>
+    <string name="channel_set_more_popupwindow_height">263</string>
+    <string name="channel_set_more_popupwindow_showatlocation_x">230</string>
+    <string name="channel_set_more_popupwindow_showatlocation_y">63</string>
+
+    <!-- 资讯主页面更多选项用到的参数 -->
+    <string name="news_main_more_popupwindow_width">310</string>
+    <string name="news_main_more_popupwindow_height">200</string>
+    <string name="news_main_more_popupwindow_showatlocation_x">80</string>
+    <string name="news_main_more_popupwindow_showatlocation_y">70</string>
+
+    <!-- 资讯详细页面更多选项用到的参数 -->
+    <string name="news_common_more_popupwindow_width">310</string>
+    <string name="news_common_more_popupwindow_height">128</string>
+    <string name="news_common_more_popupwindow_showatlocation_x">80</string>
+    <string name="news_common_more_popupwindow_showatlocation_y">70</string>
+
+    <!-- 历史记录页面更多选项用到的参数 -->
+    <string name="news_history_more_popupwindow_width">320</string>
+    <string name="news_history_more_popupwindow_height">64</string>
+    <string name="news_history_more_popupwindow_showatlocation_x">80</string>
+    <string name="news_history_more_popupwindow_showatlocation_y">70</string>
+
+    <!-- 黄历页面更多选项用到的参数 -->
+    <string name="calendar_more_popupwindow_width">310</string>
+    <string name="calendar_more_popupwindow_height">65</string>
+    <string name="calendar_more_popupwindow_showatlocation_x">80</string>
+    <string name="calendar_more_popupwindow_showatlocation_y">72</string>
+
+    <!-- 天气页面更多选项用到的参数 -->
+    <string name="weather_more_popupwindow_width">220</string>
+    <string name="weather_more_popupwindow_height">65</string>
+    <string name="weather_more_popupwindow_showatlocation_x">230</string>
+    <string name="weather_more_popupwindow_showatlocation_y">70</string>
+    <!-- 天气页面长按城市弹窗用到的参数 -->
+    <string name="weather_mycity_popupwindow_width">480</string>
+    <string name="weather_mycity_popupwindow_height">162</string>
+
+    <!-- 适配WP8主界面各种尺寸资源 -->
+    <string name="modular_margin_top">50</string>
+    <string name="modular_margin_left">24</string>
+    <string name="modular_distance">12</string>
+    <string name="modular_large_width">210</string>
+    <string name="modular_large_height">210</string>
+    <string name="modular_normal_width">210</string>
+    <string name="modular_normal_height">99</string>
+    <string name="modular_small_width">99</string>
+    <string name="modular_small_height">99</string>
+    <string name="modular_last_y">1604</string>
+
+    <!-- 适配手机加油站应用详情的图片显示 -->
+    <string name="appstore_detail_gridview_width">170</string>
+    <string name="appstore_detail_gridview_padding">15</string>
+    <string name="appstore_detail_gridview_marge">55</string>
+
+    <!-- 取图片是否下载成功的iamgeView的key -->
+    <string name="load_bitmap_key">load_bitmap_key</string>
+
+    <!-- 查看原文的css -->
+    <string name="ori_css_day">		#look{margin:12px auto;width:100%;height:3.5em;font-size:1em;color:#989898;text-align:center;line-height:66px;background-color:#ffffff;border:1px solid #bbbbbb;-webkit-border-radius:3px;}   </string>
+    <string name="ori_css_day_o">		#look{margin:12px auto;width:100%;height:3.5em;font-size:1em;color:#989898;text-align:center;line-height:66px;background-color:#ffffff;border:1px solid #33b5e5;-webkit-border-radius:3px;}</string>
+    <string name="ori_css_night">		#look{margin:12px auto;width:100%;height:3.5em;font-size:1em;color:#3d3d3d;text-align:center;line-height:66px;background-color:#1d1d1d;border:1px solid #333333;-webkit-border-radius:3px;}  </string>
+    <string name="ori_css_night_o">		#look{margin:12px auto;width:100%;height:3.5em;font-size:1em;color:#3d3d3d;text-align:center;line-height:66px;background-color:#1d1d1d;border:1px solid #33b5e5;-webkit-border-radius:3px;}    </string>
+
+    <string name="weixin_errcode_success">发送成功</string>
+	<string name="weixin_errcode_cancel">发送取消</string>
+	<string name="weixin_errcode_deny">发送被拒绝</string>
+	<string name="weixin_errcode_unknown">发送返回</string>
+    
+</resources>

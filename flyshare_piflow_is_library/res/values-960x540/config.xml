@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="menu_popupwindow_height">80</integer>
+	<integer name="menu_popupwindow_tts_setting_height">240</integer>
+	<integer name="comment_userimgs_margin">10</integer>
+	<integer name="newsmain_push_anim_duration">400</integer>
+	<integer name="comment_report_dialog_width">460</integer>
+	<integer name="account_headimg_width_height">122</integer>
+	<integer name="account_headimg_bg_width">540</integer>
+	<integer name="account_headimg_bg_height">405</integer>
+	<integer name="account_headimg_bg_width_scale">4</integer>
+	<integer name="account_headimg_bg_height_sacle">3</integer>
+	
+	<!-- 主界面用到的 -->
+    <integer name="main_modular_width">130</integer>
+    <integer name="main_modular_distance">5</integer>
+    <integer name="main_modular_iconleft">45</integer>
+    
+    <integer name="main_channelname_left">8</integer>
+    <integer name="main_channelname_top">215</integer>
+    <integer name="main_showword_top">190</integer>
+    <integer name="main_del_left">20</integer>
+    <integer name="main_del_right">30</integer>
+    
+    <!-- 新手机加油站 -->
+	<integer name="appmain_scrollx">210</integer>  
+    <!-- 分类页面导航title每个字块宽  与字大小一样 -->
+	<integer name="app_category_title_textsize">70</integer>
+	
+	<!-- 瀑布流 -->
+    <integer name="waterwall_first_text_size">54</integer>
+    <integer name="waterwall_text_item_01_height">227</integer>
+    <integer name="waterwall_text_item_02_height">391</integer>
+    <integer name="waterwall_text_item_03_height">361</integer>
+    <integer name="waterwall_img_item_extra_gap">108</integer>
+    <integer name="waterwall_item_width">248</integer>
+    <integer name="waterwall_banner_width">518</integer>
+    
+    <!-- 瀑布流详情 -->
+    <integer name="waterfall_detail_imageview_width">488</integer>
+    <integer name="waterfall_detail_content_space">12</integer>
+    
+    <integer name="waterfall_audio_title_height">60</integer>
+    <integer name="waterfall_audio_img_height">405</integer>
+</resources>

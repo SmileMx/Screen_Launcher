@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inveno.piflow"
+    android:installLocation="internalOnly"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 创建桌面快捷方式 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:name=".activity.FlyShareApplication"
+        android:enabled="true"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:persistent="true" >
+
+        <activity
+            android:name=".activity.WaterwallActivity"
+            android:label="@string/app_name"
+            
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- 查看资讯详细页面的图片 -->
+        <activity
+            android:name=".activity.NewsDetailImgsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 查看原网页的新闻界面 -->
+        <activity
+            android:name=".activity.OriginalTextActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 显示大图 -->
+        <activity
+            android:name=".activity.MeiTuShowBigImgActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- PhotoAct Fragment大图 -->
+        <activity
+            android:name=".activity.PhotoShowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent" >
+        </activity>
+
+
+        <!-- 弹窗对话框 -->
+        <activity
+            android:name=".activity.DownloadDialogActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <!-- 天气 -->
+        <activity
+            android:name=".activity.WeatherActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 天气我的城市 -->
+        <activity
+            android:name=".activity.WeatherMyCityActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 天气添加城市 -->
+        <activity
+            android:name=".activity.WeatherAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+
+        <!-- 广告弹窗 -->
+        <activity
+            android:name=".activity.CallDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        
+       
+        <!-- 回复列表界面 -->
+        <activity
+            android:name=".activity.acount.NewsReplyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+       
+
+        <!-- 瀑布流应用推广界面 -->
+        <activity
+            android:name=".activity.appstore.WFAppDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 心跳服务 -->
+        <service android:name="com.inveno.piflow.services.HeartService" >
+        </service>
+
+      
+
+       
+
+        <!-- 接收安装卸载程序系统广播 -->
+        <receiver
+            android:name="com.inveno.piflow.recievers.InstallFlyShareReceiver"
+            android:exported="false" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <!-- 发送短信后系统的广播 -->
+                <action android:name="SENT_SMS_ACTION" />
+                <!-- 情景模式改变的广播 -->
+                <action android:name="android.media.RINGER_MODE_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+
+      
+
+        <service android:name="com.inveno.piflow.download.downloadmanager.download.DownloadService" >
+        </service>
+
+        <activity
+            android:name=".activity.ext.NewsCommonActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- 瀑布流资讯详细页 -->
+        <activity
+            android:name=".activity.ext.WFNewsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        
+    </application>
+
+</manifest>

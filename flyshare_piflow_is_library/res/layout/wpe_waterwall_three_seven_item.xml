@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/waterwall_three_seven_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/waterwall_three_seven_item_three"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        layout="@layout/wpg_waterwall_the_img_item" />
+     <include
+        android:id="@+id/waterwall_three_seven_item_three_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.678"
+        layout="@layout/wpg_waterwall_the_img_item" />
+
+</LinearLayout>

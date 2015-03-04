@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MENU键弹出菜单 style4 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <View
+        android:id="@+id/popup_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popupmenu_view_width"
+        android:layout_gravity="top"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:id="@+id/popup_linerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/popubackgroud"
+        android:alpha="0.95"
+        android:longClickable="true"
+        >
+	    <!-- 按钮1 -->
+	    <ImageButton
+	        android:id="@+id/popup_menu_btn1"
+	        android:layout_width="@dimen/popupmenu_item_width"
+	        android:layout_height="@dimen/popupmenu_item_height"
+	        />
+	    
+	    <!-- 按钮2 -->
+	    <ImageButton
+	        android:id="@+id/popup_menu_btn2"
+	        android:layout_width="@dimen/popupmenu_item_width"
+	        android:layout_height="@dimen/popupmenu_item_height"
+	        android:layout_marginLeft="@dimen/popupmenu_item_padding"
+	        />
+		
+	    <!-- 按钮3 -->
+	    <ImageButton
+	        android:id="@+id/popup_menu_btn3"
+	        android:layout_width="@dimen/popupmenu_item_width"
+	        android:layout_height="@dimen/popupmenu_item_height"
+	        android:layout_marginLeft="@dimen/popupmenu_item_padding"
+	        android:layout_marginRight="@dimen/popupmenu_item_padding"
+	        />
+		
+	    <!-- 按钮4 -->
+	    <ImageButton
+	        android:id="@+id/popup_menu_btn4"
+	        android:layout_width="@dimen/popupmenu_item_width"
+	        android:layout_height="@dimen/popupmenu_item_height"
+	        />
+	 </LinearLayout>
+</LinearLayout>

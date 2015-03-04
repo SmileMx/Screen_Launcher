@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.inveno.piflow.entity.view.news.NewsDetailRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_details_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.inveno.piflow.entity.view.news.NewsDetailScrollView
+        android:id="@+id/news_details_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:fillViewport="true"
+        android:minHeight="800px" >
+
+        <RelativeLayout
+            android:id="@+id/news_details_touchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/news_detail_top_line_ImageView"
+                android:layout_width="fill_parent"
+                android:layout_height="3.3dp"
+                android:background="#0099ff" />
+
+            <RelativeLayout
+                android:id="@+id/news_datail_type_title_RelativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_top_line_ImageView" >
+
+                <TextView
+                    android:id="@+id/news_datail_type_title_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="#0099ff"
+                    android:gravity="center"
+                    android:paddingBottom="6.6dp"
+                    android:paddingLeft="13.3dp"
+                    android:paddingRight="13.3dp"
+                    android:paddingTop="6.6dp"
+                    android:text="中国新闻网"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/news_detail_bigtype_textsize" />
+
+                <TextView
+                    android:id="@+id/news_datail_type_from_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="6.6dp"
+                    android:text="News"
+                    android:textColor="#666666"
+                    android:textSize="@dimen/news_detail_source_textsize" />
+            </RelativeLayout>
+
+            <!--  <com.inveno.piflow.entity.view.news.NewsComomWebview
+                android:id="@+id/news_detail_WebView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_data"
+                android:scrollbars="vertical" />-->
+
+            <LinearLayout
+                android:id="@+id/news_detail_content_ly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_data"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            </LinearLayout>
+             <LinearLayout
+                android:id="@+id/news_detail_ads_ly"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_content_ly"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/news_detail_original_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginLeft="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginRight="@dimen/waterfall_appdetail_margin"
+                    android:layout_marginTop="@dimen/waterfall_appdetail_margin"
+                    android:background="@drawable/wf_news_orighinal_btn_selector"
+                    android:paddingBottom="6.7dp"
+                    android:paddingTop="6.7dp"
+                    android:text="开启原文"
+                    android:textColor="#989898"
+                    android:textSize="@dimen/news_detail_bigtype_textsize"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/news_detail_comment_head_LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_ads_ly"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:gravity="left"
+                    android:text="评论"
+                    android:textColor="@color/comment_content_day"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/news_detail_comment_head_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#efefef" />
+            </LinearLayout>
+
+            <com.inveno.piflow.entity.view.news.NewsCommentListView
+                android:id="@+id/news_detail_comment_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_comment_head_LinearLayout" >
+            </com.inveno.piflow.entity.view.news.NewsCommentListView>
+
+            <LinearLayout
+                android:id="@+id/news_detail_comment_footView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_comment_lv" >
+
+                <TextView
+                    android:id="@+id/news_detail_comment_foottxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/news_comment_big_userhead"
+                    android:gravity="center"
+                    android:textSize="@dimen/channel_set_listview_item_textsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/news_detail_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_datail_type_title_RelativeLayout"
+                android:clickable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/news_datail_head"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/news_datail_title_TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="13.3dp"
+                        android:text="女子200米个人混合泳 叶诗文摘奥运第二金"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/news_detail_title_textsize" />
+
+                    <ImageView
+                        android:id="@+id/news_detail_title_bottom_line"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.7dp"
+                        android:layout_below="@+id/news_datail_title_TextView"
+                        android:background="@color/littleline" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/news_detail_middle_RelativeLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="13.3dp"
+                    android:paddingRight="13.3dp" >
+
+                    <LinearLayout
+                        android:id="@+id/content_operate_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="13.3dp"
+                        android:layout_marginTop="13.3dp"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/content_comment_TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/news_comment_operate_margin"
+                            android:paddingRight="@dimen/news_comment_operate_margin"
+                            android:textColor="#8b8b8b"
+                            android:textSize="@dimen/news_comment_time_txtsize" />
+
+                        <TextView
+                            android:id="@+id/content_share_TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/news_comment_operate_margin"
+                            android:paddingRight="@dimen/news_comment_operate_margin"
+                            android:textColor="#8b8b8b"
+                            android:textSize="@dimen/news_comment_time_txtsize" />
+
+                        <TextView
+                            android:id="@+id/content_store_TextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="@dimen/news_comment_operate_margin"
+                            android:textColor="#8b8b8b"
+                            android:textSize="@dimen/news_comment_time_txtsize" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/news_detail_time_TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/content_operate_layout"
+                        android:text="2012年08月01日  03:53"
+                        android:textColor="@color/littleline"
+                        android:textSize="@dimen/news_detail_time_textsize" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/loadingTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_detail_data"
+                android:gravity="center_horizontal"
+                android:text="@string/loading_msgcontent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/news_detail_loading_textsize" />
+        </RelativeLayout>
+    </com.inveno.piflow.entity.view.news.NewsDetailScrollView>
+
+    <RelativeLayout
+        android:id="@+id/news_detail_reset_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/news_detail_data"
+        android:background="#00ffffff"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/news_bottombar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/bottombar"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/news_detail_tv_setnet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_longbottom_bg"
+                android:text="前往网络设置"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <LinearLayout
+                android:id="@+id/news_detail_layout_loadingbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ProgressBar
+                    android:id="@+id/news_detail_pb"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:indeterminateDrawable="@drawable/progress_medium_holo"
+                    android:animationResolution="33"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/news_detail_layout_loadingtxt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/news_detail_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo_loadfail" />
+
+                <TextView
+                    android:id="@+id/news_detail_tv_loadfail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/loadfail" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/news_comment_botton_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/interaction_chat_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/news_comment_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/interaction_chatinput_bg"
+            android:hint="@string/replay_edit_hint"
+            android:maxLength="141"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/news_comment_send_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="5"
+            android:background="@drawable/interaction_sendmsg_btn_bg" />
+    </LinearLayout>
+
+    <!-- 心+1 -->
+
+    <LinearLayout
+        android:id="@+id/news_praise_LinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</com.inveno.piflow.entity.view.news.NewsDetailRelativeLayout>

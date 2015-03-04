@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/share_news_app_name_margintop"
+        android:layout_marginRight="@dimen/share_news_app_name_margintop"
+        android:layout_marginTop="@dimen/share_news_margintop"
+        android:layout_marginBottom="@dimen/share_news_margintop"
+        android:background="@drawable/dialog_top_bg" >
+
+        <TextView
+            android:id="@+id/share_grid_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/share_news_title_margintop"
+            android:layout_marginTop="@dimen/share_news_title_margintop"
+            android:text="分享"
+            android:textColor="@color/bluesky"
+            android:textSize="@dimen/share_news_title_size" />
+
+        <View
+            android:id="@+id/share_grid_line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/share_grid_title"
+            android:layout_marginTop="@dimen/share_news_title_margintop"
+            android:background="@color/bluesky" />
+
+        <GridView
+            android:id="@+id/share_grid_gv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/share_grid_line"
+            android:layout_above="@+id/share_cancel_btn"
+            android:cacheColorHint="#00000000"
+            android:columnWidth="@dimen/share_news_columnWidth"
+            android:divider="#00000000"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:gravity="center_horizontal"
+            android:numColumns="2"
+            android:focusable="false"
+            android:paddingBottom="@dimen/share_news_app_name_margintbottom"
+            android:verticalSpacing="1dp" >
+        </GridView>
+
+        <Button
+            android:id="@+id/share_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/share_news_cancel_btn_height"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/dialog_btn_left_bg_xml"
+            android:singleLine="true"
+            android:text="取消"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</FrameLayout>
