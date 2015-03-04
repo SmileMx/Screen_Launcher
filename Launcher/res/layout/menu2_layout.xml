@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="470dp"
+		android:layout_height="115dp" android:layout_centerInParent="true"
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:background="@drawable/menu_tab">		
+		
+    	<!-- 	android:background="@drawable/menu_tab" -->
+		
+	    <!-- 卸载应用 -->
+	    <Button android:id="@+id/menu_btn_delete_app"
+			android:background="@drawable/menu_button_bg" 
+			android:layout_width="210dp" android:layout_height="fill_parent"
+			android:layout_marginLeft="6dp" android:layout_marginRight="6dp"
+			android:text="@string/menu_btn_delete_app" android:textSize="15sp"
+
+			android:textColor="@color/text_black" android:drawableTop="@drawable/menuicon_delete_app_no"
+			android:drawablePadding="-10dp" android:paddingTop="15dp" />
+		<ImageView 
+			android:layout_width="2dp" android:layout_height="wrap_content"
+			android:background="@drawable/menu_lines" android:layout_gravity="center_vertical"
+			android:focusable="false" />
+		
+		 <!-- 应用排序 -->
+	    <Button android:id="@+id/menu_btn_app_sort"
+			android:background="@drawable/menu_button_bg" 
+			android:layout_width="210dp" android:layout_height="fill_parent"
+			android:layout_marginLeft="6dp" android:layout_marginRight="6dp"
+			android:text="@string/menu_btn_app_sort" android:textSize="15sp"
+			android:textColor="@color/text_black" android:drawableTop="@drawable/menuicon_app_sort_no"
+
+			android:drawablePadding="-10dp" android:paddingTop="15dp" />
+
+</LinearLayout>

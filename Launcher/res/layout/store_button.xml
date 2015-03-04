@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- style="@style/MarketButton" -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:onClick="onClickStoreButton"
+    android:gravity="center"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:drawablePadding="10dp"
+    android:background="@drawable/store_text_selector"
+    android:text="@string/store"
+    android:contentDescription="@string/store"
+    android:textColor="@color/workspace_all_apps_store_text_color"
+    android:textSize="14sp"   
+    android:focusable="true"
+    android:clickable="true" />

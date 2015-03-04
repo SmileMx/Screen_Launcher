@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   		android:id="@+id/sort_mode_layout"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:background="@drawable/menu_tab"
+		android:layout_gravity="center"
+		android:gravity="center" >  
+        
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_sort_mode"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="18dp" 
+            android:layout_gravity="center"
+            android:textColor="@color/text_black"         
+            android:textSize="16sp"/>
+        
+        <!-- 定义一组单选框 -->
+        <RadioGroup android:id="@+id/app_sort_mode"
+            android:orientation="vertical"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">    
+                   
+            <RadioButton android:id="@+id/default_sort"
+				android:layout_width="fill_parent" android:layout_height="55dp"
+				android:text="@string/sort_by_installed_time"
+				style="@style/app_sort_radioButton_text" android:button="@null"
+				android:drawableRight="@drawable/radiobutton_drawable_selector"
+				android:drawableTop="@drawable/sort_line_selector"
+				android:visibility="visible" />
+            
+             <RadioButton android:id="@+id/sort_by_alphabet"
+				android:layout_width="fill_parent" android:layout_height="55dp"
+				android:text="@string/sort_by_alphabet"
+				style="@style/app_sort_radioButton_text" android:button="@null"
+				android:drawableRight="@drawable/radiobutton_drawable_selector"
+				android:drawableTop="@drawable/sort_line_selector"
+				android:visibility="visible" />
+             
+              <RadioButton android:id="@+id/sort_by_frequency"
+				android:layout_width="fill_parent" android:layout_height="55dp"
+				android:text="@string/sort_by_frequency"
+				style="@style/app_sort_radioButton_text" android:button="@null"
+				android:drawableRight="@drawable/radiobutton_drawable_selector"
+				android:drawableTop="@drawable/sort_line_selector"
+				android:paddingBottom="12dp"
+				android:visibility="visible" />
+            
+        </RadioGroup>
+        
+ </LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout_local_music"
+    android:layout_width="172dp"
+    android:layout_height="188dp"
+    android:background="@drawable/local_music_preview"
+    android:orientation="vertical" >  
+    
+<!--   <TextView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/local_widget_local_music"/> 
+    
+  <ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/local_music_preview"
+    android:text="@string/local_widget_local_music"/>
+     -->
+
+</LinearLayout>

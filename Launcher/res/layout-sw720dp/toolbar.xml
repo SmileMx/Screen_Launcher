@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.simpletv.launcher2.toolbar.ToolbarTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar="http://schemas.android.com/apk/com.tcl.simpletv.toolbarservice"
+    android:id="@+id/TabHost01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+		<LinearLayout
+		    android:id="@+id/tabwidget_lin"
+		    android:layout_width="match_parent"
+		    android:layout_height="@dimen/apps_customize_edit_tab_bar_height"
+		    android:layout_marginTop="0dp"><!-- 		    android:background="@drawable/widget_title_bg" -->
+<!-- android:background="@drawable/toolbar_tabhost_bg" -->
+		    <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:tabStripEnabled="false" />
+		</LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/page_bg">
+<!-- 		    android:background="#444444" -->
+
+            <FrameLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical" >
+
+                <GridView
+                    android:id="@+id/mfu_gridview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fadingEdge="none"
+                    android:gravity="center"
+                    android:horizontalSpacing="15dp"
+                    android:listSelector="@drawable/focusable_view_bg"
+                    android:numColumns="12"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/LinearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical" >
+
+                <GridView
+                    android:id="@+id/latest_gridview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fadingEdge="none"
+                    android:gravity="center"
+                    android:horizontalSpacing="15dp"
+                    android:listSelector="@drawable/focusable_view_bg"
+                    android:numColumns="12"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth" />
+            </FrameLayout>
+
+            <!-- android:layout_width="1266dp" -->
+            <!-- android:layout_height="130dp" -->
+
+            <FrameLayout
+                android:id="@+id/LinearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp" >
+
+                <com.tcl.simpletv.launcher2.toolbar.ToolbarPagedView
+                    android:id="@+id/apps_customize_pane_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    toolbar:maxAppCellCountX="@integer/apps_customize_maxCellCountX"
+                    toolbar:maxAppCellCountY="@integer/apps_customize_maxCellCountY"
+                    toolbar:pageLayoutHeightGap="@dimen/apps_customize_pageLayoutHeightGap"
+                    toolbar:pageLayoutPaddingBottom="@dimen/apps_customize_pageLayoutPaddingBottom"
+                    toolbar:pageLayoutPaddingLeft="@dimen/apps_customize_pageLayoutPaddingLeft"
+                    toolbar:pageLayoutPaddingRight="@dimen/apps_customize_pageLayoutPaddingRight"
+                    toolbar:pageLayoutPaddingTop="@dimen/apps_customize_pageLayoutPaddingTop"
+                    toolbar:pageLayoutWidthGap="@dimen/apps_customize_pageLayoutWidthGap" />
+
+                <include
+                    android:id="@+id/paged_view_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    layout="@layout/scroll_indicator" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</com.tcl.simpletv.launcher2.toolbar.ToolbarTabHost>

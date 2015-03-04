@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--     <declare-styleable name="TTPagedView"> -->
+<!--         A spacing override for the icons within a page -->
+<!--         <attr name="pageLayoutWidthGap" format="dimension" /> -->
+<!--         <attr name="pageLayoutHeightGap" format="dimension" /> -->
+<!--         The padding of the pages that are dynamically created per page -->
+<!--         <attr name="pageLayoutPaddingTop" format="dimension" /> -->
+<!--         <attr name="pageLayoutPaddingBottom" format="dimension" /> -->
+<!--         <attr name="pageLayoutPaddingLeft" format="dimension" /> -->
+<!--         <attr name="pageLayoutPaddingRight" format="dimension" /> -->
+<!--         The space between adjacent pages of the PagedView. -->
+<!--         <attr name="pageSpacing" format="dimension" /> -->
+<!--         The padding for the scroll indicator area -->
+<!--         <attr name="scrollIndicatorPaddingLeft" format="dimension" /> -->
+<!--         <attr name="scrollIndicatorPaddingRight" format="dimension" /> -->
+<!--     </declare-styleable> -->
+    
+<!--     <declare-styleable name="ToolbarPagedView"> -->
+<!--         Max number of cells of applications horizontally -->
+<!--         <attr name="maxAppCellCountX" format="integer" /> -->
+<!--         Max number of cells of applications vertically -->
+<!--         <attr name="maxAppCellCountY" format="integer" /> -->
+<!--         Horizontal spacing between widgets and wallpapers -->
+<!--         <attr name="widgetCellWidthGap" format="dimension" /> -->
+<!--         Vertical spacing between widgets -->
+<!--         <attr name="widgetCellHeightGap" format="dimension" /> -->
+<!--         Number of widgets horizontally -->
+<!--         <attr name="widgetCountX" format="integer" /> -->
+<!--         Number of widgets vertically -->
+<!--         <attr name="widgetCountY" format="integer" /> -->
+<!--         The x index of the item to be focused in the cling -->
+<!--         <attr name="clingFocusedX" format="integer" /> -->
+<!--         The y index of the item to be focused in the cling -->
+<!--         <attr name="clingFocusedY" format="integer" /> -->
+<!--     </declare-styleable> -->
+</resources>

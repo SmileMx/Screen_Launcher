@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/menu1_layout"
+	    android:background="@drawable/menu_tab"
+		android:orientation="horizontal" android:layout_width="700dp"
+		android:layout_height="115dp" android:layout_centerInParent="true"
+		android:gravity="center">	
+        <!-- android:background="@drawable/menu_tab" -->
+    <!-- menu菜单1 -->
+<!-- 	<LinearLayout android:id="@+id/menu1_layout"
+	    android:background="@drawable/menu_tab"
+		android:orientation="horizontal" android:layout_width="700dp"
+		android:layout_height="115dp" android:layout_centerInParent="true"
+		android:gravity="center">		 -->
+	    
+	    
+	    <!-- 壁纸设置 -->
+	    <Button android:id="@+id/menu_btn_wallpaper_setting"
+			android:background="@drawable/menu_button_bg" 
+			android:layout_width="210dp" android:layout_height="fill_parent"
+			android:layout_marginLeft="6dp" android:layout_marginRight="6dp"
+			android:text="@string/menu_btn_wallpaper_setting" android:textSize="15sp"
+			android:textColor="@color/text_black" android:drawableTop="@drawable/menuicon_wallpaper_no"
+			android:drawablePadding="-10dp" android:paddingTop="15dp" />
+		<ImageView 
+			android:layout_width="2dp" android:layout_height="wrap_content"
+			android:background="@drawable/menu_lines" android:layout_gravity="center_vertical"
+			android:focusable="false" />
+		
+		 <!-- 添加到桌面 -->
+	    <Button android:id="@+id/menu_btn_add_to_screen"
+			android:background="@drawable/menu_button_bg" 
+			android:layout_width="210dp" android:layout_height="fill_parent"
+			android:layout_marginLeft="6dp" android:layout_marginRight="6dp"
+			android:text="@string/menu_btn_add_to_screen" android:textSize="15sp"
+			android:textColor="@color/text_black" android:drawableTop="@drawable/menuicon_add_no"
+
+			android:drawablePadding="-10dp" android:paddingTop="15dp" />
+		<ImageView
+			android:layout_width="2dp" android:layout_height="wrap_content"
+			android:background="@drawable/menu_lines" android:layout_gravity="center_vertical"
+			android:focusable="false" />		
+						
+
+	    <!-- 屏幕管理-->
+		<Button android:id="@+id/menu_btn_screen_manager"
+			android:background="@drawable/menu_button_bg" 
+			android:layout_width="210dp" android:layout_height="fill_parent"
+			android:layout_marginLeft="6dp" android:layout_marginRight="6dp"
+			android:text="@string/menu_btn_screen_manager" android:textSize="15sp"
+			android:textColor="@color/text_black" android:drawableTop="@drawable/menuicon_screen_manager_no"
+			android:drawablePadding="-10dp" android:paddingTop="15dp" />
+
+	</LinearLayout>
+	

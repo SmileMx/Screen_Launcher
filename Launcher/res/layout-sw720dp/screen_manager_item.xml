@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tcl.simpletv.launcher2.screenmanager.ScreenManagerItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/screen_whole"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp" >
+
+            <ImageView
+                android:id="@+id/screen_thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/screen_thumbnail_padding_left_right"
+                android:paddingRight="@dimen/screen_thumbnail_padding_left_right"
+                android:paddingTop="@dimen/screen_thumbnail_padding_top" />
+
+            <ImageView
+                android:id="@+id/screen_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:src="@drawable/screen_add_normal"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/screen_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:src="@drawable/screen_home_normal" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/screen_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:src="@drawable/home_delete" />
+    </RelativeLayout>
+
+</com.tcl.simpletv.launcher2.screenmanager.ScreenManagerItem>

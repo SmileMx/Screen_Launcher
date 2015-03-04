@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	本xml是保存本地Widget配置参数
+	参数个数、顺序以及参数类型都有严格顺序
+	否则解析会出现异常
+	如果要修改，请相应修改解析方法ParseLocalWidgetInfoXMLMsg.ParsingXMLMsg
+ -->
+
+<LocalWidgerInfoList>
+
+    <LocalWidgerInfo
+        localWidgetId="-1000"
+        localWidgetName="falls_stream_news"
+        icon="drawable/falls_stream_news_preview"
+        minWidth="640"
+        minHeight="710"
+        minResizeWidth="640"
+        minResizeHeight="710"
+        updatePeriodMillis="1000"
+        initialLayout="300"
+        initialKeyguardLayout="100"
+        label="string/local_widget_falls_stream_news"
+        previewImage="drawable/falls_stream_news_preview"
+        autoAdvanceViewId="0"
+        resizeMode="3"
+        widgetCategory="1"
+        localWidgetClassName="com.tcl.simpletv.launcher2.localwidget.LocalWidgetFallsStreamNews" />
+       
+     <LocalWidgerInfo
+        localWidgetId="-999"
+        localWidgetName="local_music"
+        icon="drawable/local_music_preview"
+        minWidth="258"
+        minHeight="258"
+        minResizeWidth="172"
+        minResizeHeight="172"
+        updatePeriodMillis="1000"
+        initialLayout="300"
+        initialKeyguardLayout="100"
+        label="string/local_widget_local_music"
+        previewImage="drawable/local_music_preview"
+        autoAdvanceViewId="0"
+        resizeMode="3"
+        widgetCategory="1"
+        localWidgetClassName="com.tcl.simpletv.launcher2.localwidget.LocalWidgetLocalMusic" />
+     
+     <LocalWidgerInfo
+        localWidgetId="-998"
+        localWidgetName="weather_and_date"
+        icon="drawable/weather_date_preview"
+        minWidth="232"
+        minHeight="232"
+        minResizeWidth="155"
+        minResizeHeight="155"
+        updatePeriodMillis="1000"
+        initialLayout="300"
+        initialKeyguardLayout="100"
+        label="string/local_widget_weather_and_date"
+        previewImage="drawable/weather_date_preview"
+        autoAdvanceViewId="0"
+        resizeMode="3"
+        widgetCategory="1"
+        localWidgetClassName="com.tcl.simpletv.launcher2.localwidget.LocalWidgetWeatherAndDate" />
+ 
+</LocalWidgerInfoList>

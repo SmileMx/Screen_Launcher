@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/widget_layout_weather_and_date"
+    android:layout_width="155dp"
+    android:layout_height="244dp"
+    android:background="@drawable/weather_date_preview"  
+    android:orientation="vertical" >  
+    
+<!--   <ImageView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="centerInside"
+    android:src="@drawable/weather_date_preview"
+    android:text="@string/local_widget_weather_and_date"/> -->
+
+</LinearLayout>

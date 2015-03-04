@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+        
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-14px"
+        android:layout_below="@+id/arrow_up"
+        android:background="@drawable/gl_quickaction_bg"
+        android:fadingEdgeLength="5dip"
+        android:scrollbars="none" >
+        
+        <LinearLayout
+            android:id="@+id/tracks"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dip"/>
+       
+    </ScrollView >
+    
+    <ImageView
+        android:id="@+id/arrow_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quickaction_arrow_up" />
+        
+    <ImageView
+        android:id="@+id/arrow_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroller"
+        android:layout_marginTop="-24px"
+        android:src="@drawable/quickaction_arrow_down" />
+
+</RelativeLayout>

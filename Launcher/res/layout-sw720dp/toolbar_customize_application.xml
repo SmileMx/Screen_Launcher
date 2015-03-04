@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.tcl.simpletv.launcher2.toolbar.ToolbarPagedViewIcon
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:launcher="http://schemas.android.com/apk/res/com.tcl.simpletv.launcher2"
+        android:id="@+id/application_icon"
+        
+        style="@style/WorkspaceIcon.Landscape.AppsCustomize"
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/focusable_view_bg"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:gravity="center_horizontal" />
+    
+
+    <ImageView
+        android:id="@+id/application_del_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/home_delete"
+        android:visibility="invisible"/>
+<!--         android:visibility="invisible"  -->
+
+</RelativeLayout>
